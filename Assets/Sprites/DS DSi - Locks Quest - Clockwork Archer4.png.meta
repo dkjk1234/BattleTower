@@ -147,7 +147,7 @@ TextureImporter:
       213: -3993209643829307335
     second: DS DSi - Locks Quest - Clockwork Archer4_47
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -167,6 +167,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -176,8 +178,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -198,10 +200,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -229,6 +235,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1176,6 +1194,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Locks Quest - Clockwork Archer4_0: -5285920104689045186
+      DS DSi - Locks Quest - Clockwork Archer4_1: 8694874263130886326
+      DS DSi - Locks Quest - Clockwork Archer4_10: -147916352429339818
+      DS DSi - Locks Quest - Clockwork Archer4_11: 4194083340726037186
+      DS DSi - Locks Quest - Clockwork Archer4_12: 5317517274712023203
+      DS DSi - Locks Quest - Clockwork Archer4_13: 6374355465211686241
+      DS DSi - Locks Quest - Clockwork Archer4_14: 807134334546090693
+      DS DSi - Locks Quest - Clockwork Archer4_15: -3567382648978818880
+      DS DSi - Locks Quest - Clockwork Archer4_16: -3805952127756642982
+      DS DSi - Locks Quest - Clockwork Archer4_17: 4510205859533858561
+      DS DSi - Locks Quest - Clockwork Archer4_18: 2769460203851069045
+      DS DSi - Locks Quest - Clockwork Archer4_19: -3531515648409478906
+      DS DSi - Locks Quest - Clockwork Archer4_2: 6076977075335491431
+      DS DSi - Locks Quest - Clockwork Archer4_20: -3773130235759028037
+      DS DSi - Locks Quest - Clockwork Archer4_21: 5947478655093269963
+      DS DSi - Locks Quest - Clockwork Archer4_22: -7770754405462136533
+      DS DSi - Locks Quest - Clockwork Archer4_23: 8675771708334568824
+      DS DSi - Locks Quest - Clockwork Archer4_24: 3036316551578869942
+      DS DSi - Locks Quest - Clockwork Archer4_25: 8019488913819597680
+      DS DSi - Locks Quest - Clockwork Archer4_26: 5527335636608802411
+      DS DSi - Locks Quest - Clockwork Archer4_27: 8128319780604486163
+      DS DSi - Locks Quest - Clockwork Archer4_28: 8347156589203972027
+      DS DSi - Locks Quest - Clockwork Archer4_29: -2135894999619078078
+      DS DSi - Locks Quest - Clockwork Archer4_3: -8463906684715674598
+      DS DSi - Locks Quest - Clockwork Archer4_30: 3442374256954006378
+      DS DSi - Locks Quest - Clockwork Archer4_31: -496175348232320535
+      DS DSi - Locks Quest - Clockwork Archer4_32: -4046910577163686297
+      DS DSi - Locks Quest - Clockwork Archer4_33: -2768379052348705307
+      DS DSi - Locks Quest - Clockwork Archer4_34: 6532616949661240461
+      DS DSi - Locks Quest - Clockwork Archer4_35: -4248547160068349686
+      DS DSi - Locks Quest - Clockwork Archer4_36: -312869581451377962
+      DS DSi - Locks Quest - Clockwork Archer4_37: -8123340899282774305
+      DS DSi - Locks Quest - Clockwork Archer4_38: -4379098925218360891
+      DS DSi - Locks Quest - Clockwork Archer4_39: 1349820485481317085
+      DS DSi - Locks Quest - Clockwork Archer4_4: 1503751303392890655
+      DS DSi - Locks Quest - Clockwork Archer4_40: 8181738617158944665
+      DS DSi - Locks Quest - Clockwork Archer4_41: 2369360854497308822
+      DS DSi - Locks Quest - Clockwork Archer4_42: 5192659555958700779
+      DS DSi - Locks Quest - Clockwork Archer4_43: 5065679687011702335
+      DS DSi - Locks Quest - Clockwork Archer4_5: 7210747035654837008
+      DS DSi - Locks Quest - Clockwork Archer4_6: -6036138706768874028
+      DS DSi - Locks Quest - Clockwork Archer4_7: 6142830779569537315
+      DS DSi - Locks Quest - Clockwork Archer4_8: 6882354857294908814
+      DS DSi - Locks Quest - Clockwork Archer4_9: -7608320167128228835
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

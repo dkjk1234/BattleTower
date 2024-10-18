@@ -93,7 +93,7 @@ TextureImporter:
       213: 1627033419766767292
     second: Arcade - Three Wonders - Projectiles (1)_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,8 +124,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,10 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -175,6 +181,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -828,6 +846,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Three Wonders - Projectiles (1)_0: -1874739840659902874
+      Arcade - Three Wonders - Projectiles (1)_1: 3314325937196388574
+      Arcade - Three Wonders - Projectiles (1)_10: -7031038698973966573
+      Arcade - Three Wonders - Projectiles (1)_11: 7999049868037573723
+      Arcade - Three Wonders - Projectiles (1)_12: -7069438244980210998
+      Arcade - Three Wonders - Projectiles (1)_13: -2688367717817397348
+      Arcade - Three Wonders - Projectiles (1)_14: 553181630206433312
+      Arcade - Three Wonders - Projectiles (1)_15: 217392162883431142
+      Arcade - Three Wonders - Projectiles (1)_16: 2709900468545821344
+      Arcade - Three Wonders - Projectiles (1)_17: -6442179229488927370
+      Arcade - Three Wonders - Projectiles (1)_18: -3212107001538195967
+      Arcade - Three Wonders - Projectiles (1)_19: 5583955303246250509
+      Arcade - Three Wonders - Projectiles (1)_2: 1126788084251425218
+      Arcade - Three Wonders - Projectiles (1)_20: -555961607821646750
+      Arcade - Three Wonders - Projectiles (1)_21: -4283473227063005399
+      Arcade - Three Wonders - Projectiles (1)_22: 2961798685659154369
+      Arcade - Three Wonders - Projectiles (1)_23: 6610659752944383495
+      Arcade - Three Wonders - Projectiles (1)_24: -262368666211272766
+      Arcade - Three Wonders - Projectiles (1)_25: -2781613333035225434
+      Arcade - Three Wonders - Projectiles (1)_26: -5629953881622213148
+      Arcade - Three Wonders - Projectiles (1)_27: 467738190010457068
+      Arcade - Three Wonders - Projectiles (1)_28: -748543654076961593
+      Arcade - Three Wonders - Projectiles (1)_29: 1627033419766767292
+      Arcade - Three Wonders - Projectiles (1)_3: 3965964195755529773
+      Arcade - Three Wonders - Projectiles (1)_4: -8006223415130460343
+      Arcade - Three Wonders - Projectiles (1)_5: -2988413198127087768
+      Arcade - Three Wonders - Projectiles (1)_6: -7262690898186198821
+      Arcade - Three Wonders - Projectiles (1)_7: 4629982557859598255
+      Arcade - Three Wonders - Projectiles (1)_8: -7504046786913023260
+      Arcade - Three Wonders - Projectiles (1)_9: -3797806616174639471
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -22,6 +22,8 @@ public class TileScript : MonoBehaviour {
     public Vector3Int LocalPlace { get; set; }
 
     public Vector3 WorldLocation { get; set; }
+    
+    public bool HasTower { get; set; }
 
     public TileBase TileBase { get; set; }
 

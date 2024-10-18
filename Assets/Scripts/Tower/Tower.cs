@@ -63,22 +63,28 @@ public class Tower : MonoBehaviour {
             Attack();
     }
 
-    public void Setup(Point gridPos, Vector3 worldPos) {
-        GridPosition = gridPos;
-        transform.position = worldPos + new Vector3(0, 0.13f, 0);
+    public void Setup(Vector3 worldPos) {
+        GridPosition = LevelManager.Instance.WorldToGridPosition(worldPos);
+        transform.position = LevelManager.Instance.GridToWorldPosition(GridPosition);
+        GameManager.Instance.Towers.Add(GridPosition, this);
+        
+        /*transform.position = worldPos + new Vector3(0, 0.13f, 0);
         GameManager.Instance.Towers.Add(gridPos, this);
 
         LevelManager.Instance.SpawnPoints[gridPos].TowerLevel++;
         if(LevelManager.Instance.SpawnPoints[gridPos].TowerLevel.Equals(GameManager.Instance.TowerLevelMax)) 
-            LevelManager.Instance.SpawnPoints[GridPosition].TowerLevelMax = true;
+            LevelManager.Instance.SpawnPoints[GridPosition].TowerLevelMax = true;*/
 
         Projectile = projectileType + "1";
         towerPrice = GameManager.Instance.towerPrices[towerIndex];
-        GameManager.Instance.dataManager.Initilaize(towerIndex, ref damage, ref projectileSpeed, ref attackCooldown);
+        GameManager.Instance.dataManager.Initialize(towerIndex, ref damage, ref projectileSpeed, ref attackCooldown);
 
         range = transform.GetChild(0).GetComponent<TowerRange>();
+        towerRange.enabled = false;
+        range.enabled = true;
         range.GridPosition = GridPosition;
         towerRange.transform.localScale = new Vector3(4, 4.5f, 1);
+        LevelManager.Instance.SpawnPoints[GridPosition].HasTower = true;
         
         //Create Soldiers if it is the BARRACKS
         if(ElementType.Equals(Element.BARRACKS)) {
@@ -168,7 +174,7 @@ public class Tower : MonoBehaviour {
     }
 
     public void RecreateSoldier(int index, bool haveTimer, bool isLevelUp, Monster target) {
-        StartCoroutine(CreateSoldier(index, LevelManager.Instance.SpawnPoints[GridPosition].SoldierPos[index], haveTimer, isLevelUp, target));
+        //StartCoroutine(CreateSoldier(index, LevelManager.Instance.SpawnPoints[GridPosition].SoldierPos[index], haveTimer, isLevelUp, target));
     }
 
     IEnumerator CreateSoldier(int index, Vector3 pos, bool haveTimer, bool isLevelUp, Monster target) {

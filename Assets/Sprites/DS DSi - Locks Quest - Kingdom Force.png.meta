@@ -603,7 +603,7 @@ TextureImporter:
       213: -8468230732930398929
     second: DS DSi - Locks Quest - Kingdom Force_199
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -623,6 +623,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -632,8 +634,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -654,10 +656,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -685,6 +691,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4425,6 +4443,184 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Locks Quest - Kingdom Force_0: -5743461979105000328
+      DS DSi - Locks Quest - Kingdom Force_1: 2152146996207593456
+      DS DSi - Locks Quest - Kingdom Force_10: -7024211089622198583
+      DS DSi - Locks Quest - Kingdom Force_100: -4991913745457580576
+      DS DSi - Locks Quest - Kingdom Force_101: -7016192849405026466
+      DS DSi - Locks Quest - Kingdom Force_102: 2424532036257857709
+      DS DSi - Locks Quest - Kingdom Force_103: -6631339268682467164
+      DS DSi - Locks Quest - Kingdom Force_104: 6523793528033928004
+      DS DSi - Locks Quest - Kingdom Force_105: 4319451270730025441
+      DS DSi - Locks Quest - Kingdom Force_106: -49414231624960937
+      DS DSi - Locks Quest - Kingdom Force_107: 41470000870842397
+      DS DSi - Locks Quest - Kingdom Force_108: -8015132207004070825
+      DS DSi - Locks Quest - Kingdom Force_109: -5615465051839955310
+      DS DSi - Locks Quest - Kingdom Force_11: -4960535274388069909
+      DS DSi - Locks Quest - Kingdom Force_110: 30155174484343703
+      DS DSi - Locks Quest - Kingdom Force_111: -6157829008952852230
+      DS DSi - Locks Quest - Kingdom Force_112: -1378759070960954504
+      DS DSi - Locks Quest - Kingdom Force_113: 4129223335473558546
+      DS DSi - Locks Quest - Kingdom Force_114: -6595188120533980008
+      DS DSi - Locks Quest - Kingdom Force_115: 4153016067655476474
+      DS DSi - Locks Quest - Kingdom Force_116: 1166481807882955069
+      DS DSi - Locks Quest - Kingdom Force_117: -3075623321221839420
+      DS DSi - Locks Quest - Kingdom Force_118: -7081920090917496424
+      DS DSi - Locks Quest - Kingdom Force_119: 5206441633811528562
+      DS DSi - Locks Quest - Kingdom Force_12: 6428279302988826866
+      DS DSi - Locks Quest - Kingdom Force_120: -2132537697633141071
+      DS DSi - Locks Quest - Kingdom Force_121: -3131151067156672167
+      DS DSi - Locks Quest - Kingdom Force_122: 2756374912613004879
+      DS DSi - Locks Quest - Kingdom Force_123: -7500981016247116618
+      DS DSi - Locks Quest - Kingdom Force_124: 627410643812938757
+      DS DSi - Locks Quest - Kingdom Force_125: -8447254186043013896
+      DS DSi - Locks Quest - Kingdom Force_126: -4331274852301554178
+      DS DSi - Locks Quest - Kingdom Force_127: 8673659296576343514
+      DS DSi - Locks Quest - Kingdom Force_128: -1645020215672495721
+      DS DSi - Locks Quest - Kingdom Force_129: -6228950751718616464
+      DS DSi - Locks Quest - Kingdom Force_13: -4139996016432338989
+      DS DSi - Locks Quest - Kingdom Force_130: -4930482665789268208
+      DS DSi - Locks Quest - Kingdom Force_131: 1378863545674948527
+      DS DSi - Locks Quest - Kingdom Force_132: 4238758243516190149
+      DS DSi - Locks Quest - Kingdom Force_133: 163518114292460159
+      DS DSi - Locks Quest - Kingdom Force_134: 1288432468454421626
+      DS DSi - Locks Quest - Kingdom Force_135: 4718918719970533933
+      DS DSi - Locks Quest - Kingdom Force_136: -2791089459973625748
+      DS DSi - Locks Quest - Kingdom Force_137: 4785091921232259967
+      DS DSi - Locks Quest - Kingdom Force_138: -3997770254879714126
+      DS DSi - Locks Quest - Kingdom Force_139: 1513986500088399229
+      DS DSi - Locks Quest - Kingdom Force_14: 4929562001621947585
+      DS DSi - Locks Quest - Kingdom Force_140: 4714901857383062374
+      DS DSi - Locks Quest - Kingdom Force_141: 8879730300316050621
+      DS DSi - Locks Quest - Kingdom Force_142: -3469351572038134212
+      DS DSi - Locks Quest - Kingdom Force_143: 2554074392091160895
+      DS DSi - Locks Quest - Kingdom Force_144: 7834780274089444663
+      DS DSi - Locks Quest - Kingdom Force_145: 5386777745595674220
+      DS DSi - Locks Quest - Kingdom Force_146: -2505589297199888392
+      DS DSi - Locks Quest - Kingdom Force_147: -3575567628175422827
+      DS DSi - Locks Quest - Kingdom Force_148: 6332120688455133263
+      DS DSi - Locks Quest - Kingdom Force_149: 260664154147584103
+      DS DSi - Locks Quest - Kingdom Force_15: 238407980663214306
+      DS DSi - Locks Quest - Kingdom Force_150: 7141740059469387356
+      DS DSi - Locks Quest - Kingdom Force_151: 1014474963525912329
+      DS DSi - Locks Quest - Kingdom Force_152: -429270558630779483
+      DS DSi - Locks Quest - Kingdom Force_153: 1183332946439634
+      DS DSi - Locks Quest - Kingdom Force_154: 2129662997697799099
+      DS DSi - Locks Quest - Kingdom Force_155: -8469915876125908358
+      DS DSi - Locks Quest - Kingdom Force_156: -2062236416878954507
+      DS DSi - Locks Quest - Kingdom Force_157: -420878760124104317
+      DS DSi - Locks Quest - Kingdom Force_158: 2100859406248552550
+      DS DSi - Locks Quest - Kingdom Force_159: 1970905157937706593
+      DS DSi - Locks Quest - Kingdom Force_16: -7294718916518565737
+      DS DSi - Locks Quest - Kingdom Force_160: -4355485269834692190
+      DS DSi - Locks Quest - Kingdom Force_161: -7806940776769946605
+      DS DSi - Locks Quest - Kingdom Force_162: 6836731077349912763
+      DS DSi - Locks Quest - Kingdom Force_163: -2478794371386815978
+      DS DSi - Locks Quest - Kingdom Force_164: 8001781518492103828
+      DS DSi - Locks Quest - Kingdom Force_165: -7245349626601271866
+      DS DSi - Locks Quest - Kingdom Force_166: 3859304301385930916
+      DS DSi - Locks Quest - Kingdom Force_167: -7440862027571437885
+      DS DSi - Locks Quest - Kingdom Force_168: 8417280992009014054
+      DS DSi - Locks Quest - Kingdom Force_169: 8998107625580602529
+      DS DSi - Locks Quest - Kingdom Force_17: 5937383854197816555
+      DS DSi - Locks Quest - Kingdom Force_170: 5782637623978333650
+      DS DSi - Locks Quest - Kingdom Force_171: -6598261145817014952
+      DS DSi - Locks Quest - Kingdom Force_172: 1485456818798022375
+      DS DSi - Locks Quest - Kingdom Force_173: -8890031852149181254
+      DS DSi - Locks Quest - Kingdom Force_174: 3588976332932440992
+      DS DSi - Locks Quest - Kingdom Force_175: 9107784401316027321
+      DS DSi - Locks Quest - Kingdom Force_18: 5478765790420364755
+      DS DSi - Locks Quest - Kingdom Force_19: -633597369639393107
+      DS DSi - Locks Quest - Kingdom Force_197: -7710372533542978864
+      DS DSi - Locks Quest - Kingdom Force_2: -5846686768862773635
+      DS DSi - Locks Quest - Kingdom Force_20: -5431325998099363623
+      DS DSi - Locks Quest - Kingdom Force_21: 813679623736107541
+      DS DSi - Locks Quest - Kingdom Force_22: 423149242350464212
+      DS DSi - Locks Quest - Kingdom Force_23: -3800138932856732680
+      DS DSi - Locks Quest - Kingdom Force_24: 5605966940907473258
+      DS DSi - Locks Quest - Kingdom Force_25: 7626750234957537248
+      DS DSi - Locks Quest - Kingdom Force_26: -8800206204089573775
+      DS DSi - Locks Quest - Kingdom Force_27: -76013157107651729
+      DS DSi - Locks Quest - Kingdom Force_28: -7361620665807651884
+      DS DSi - Locks Quest - Kingdom Force_29: -58914248349920269
+      DS DSi - Locks Quest - Kingdom Force_3: -7600443953468336953
+      DS DSi - Locks Quest - Kingdom Force_30: -2448615123084389717
+      DS DSi - Locks Quest - Kingdom Force_31: -6115461444220541600
+      DS DSi - Locks Quest - Kingdom Force_32: -7828692976931637174
+      DS DSi - Locks Quest - Kingdom Force_33: 8246620281635818743
+      DS DSi - Locks Quest - Kingdom Force_34: -691515888082663758
+      DS DSi - Locks Quest - Kingdom Force_35: -565423156122436092
+      DS DSi - Locks Quest - Kingdom Force_36: -54318527274442288
+      DS DSi - Locks Quest - Kingdom Force_37: -3919590615555314647
+      DS DSi - Locks Quest - Kingdom Force_38: -7877510645776593217
+      DS DSi - Locks Quest - Kingdom Force_39: 8265887829036848007
+      DS DSi - Locks Quest - Kingdom Force_4: -4329508645931376543
+      DS DSi - Locks Quest - Kingdom Force_40: 4507935925439928549
+      DS DSi - Locks Quest - Kingdom Force_41: -8214305784185043204
+      DS DSi - Locks Quest - Kingdom Force_42: -312477222549759520
+      DS DSi - Locks Quest - Kingdom Force_43: 1568806037151922152
+      DS DSi - Locks Quest - Kingdom Force_44: -3510180882042941274
+      DS DSi - Locks Quest - Kingdom Force_45: 3291756914699788113
+      DS DSi - Locks Quest - Kingdom Force_46: 2468715933345666875
+      DS DSi - Locks Quest - Kingdom Force_47: -2665411723588714725
+      DS DSi - Locks Quest - Kingdom Force_48: 3393549056812390672
+      DS DSi - Locks Quest - Kingdom Force_49: 1355725520903933202
+      DS DSi - Locks Quest - Kingdom Force_5: 2737569621811316894
+      DS DSi - Locks Quest - Kingdom Force_50: 8154395270781170437
+      DS DSi - Locks Quest - Kingdom Force_51: 2344271275976565779
+      DS DSi - Locks Quest - Kingdom Force_52: -2919103558339177770
+      DS DSi - Locks Quest - Kingdom Force_53: -8117453142795413859
+      DS DSi - Locks Quest - Kingdom Force_54: -3219935689676277903
+      DS DSi - Locks Quest - Kingdom Force_55: -3987917791867383045
+      DS DSi - Locks Quest - Kingdom Force_56: -2648404352482722338
+      DS DSi - Locks Quest - Kingdom Force_57: 3826993900910760570
+      DS DSi - Locks Quest - Kingdom Force_58: -8590276917721990985
+      DS DSi - Locks Quest - Kingdom Force_59: 7595822647607925475
+      DS DSi - Locks Quest - Kingdom Force_6: 1825601182732821741
+      DS DSi - Locks Quest - Kingdom Force_60: -2276770896988558500
+      DS DSi - Locks Quest - Kingdom Force_61: 1670001710199281056
+      DS DSi - Locks Quest - Kingdom Force_62: -3833896935073411534
+      DS DSi - Locks Quest - Kingdom Force_63: -9193231426161652921
+      DS DSi - Locks Quest - Kingdom Force_64: 8394536642016055594
+      DS DSi - Locks Quest - Kingdom Force_65: 7199567277661739405
+      DS DSi - Locks Quest - Kingdom Force_66: -6588762044987452919
+      DS DSi - Locks Quest - Kingdom Force_67: 9074230705220608860
+      DS DSi - Locks Quest - Kingdom Force_68: 5628181050180865624
+      DS DSi - Locks Quest - Kingdom Force_69: -8985115656360038327
+      DS DSi - Locks Quest - Kingdom Force_7: 7934987927629961999
+      DS DSi - Locks Quest - Kingdom Force_70: -2485404218971159445
+      DS DSi - Locks Quest - Kingdom Force_71: -26106216425286208
+      DS DSi - Locks Quest - Kingdom Force_72: 6130086874638338197
+      DS DSi - Locks Quest - Kingdom Force_73: -4217665468051660889
+      DS DSi - Locks Quest - Kingdom Force_74: 2522928932313698428
+      DS DSi - Locks Quest - Kingdom Force_75: 8148416299028715381
+      DS DSi - Locks Quest - Kingdom Force_76: -3770704470628621015
+      DS DSi - Locks Quest - Kingdom Force_77: 7120994959137251541
+      DS DSi - Locks Quest - Kingdom Force_78: 4357636231375054957
+      DS DSi - Locks Quest - Kingdom Force_79: 8541006370050700100
+      DS DSi - Locks Quest - Kingdom Force_8: -31060349046690470
+      DS DSi - Locks Quest - Kingdom Force_80: 7215403928801779995
+      DS DSi - Locks Quest - Kingdom Force_81: -2947858686491793295
+      DS DSi - Locks Quest - Kingdom Force_82: 680894964555052986
+      DS DSi - Locks Quest - Kingdom Force_83: 3697413768452308807
+      DS DSi - Locks Quest - Kingdom Force_84: -7868457619399328272
+      DS DSi - Locks Quest - Kingdom Force_85: 6683353202193678745
+      DS DSi - Locks Quest - Kingdom Force_86: -1055427985979177792
+      DS DSi - Locks Quest - Kingdom Force_87: -6172258871056281752
+      DS DSi - Locks Quest - Kingdom Force_88: 2396331590431093130
+      DS DSi - Locks Quest - Kingdom Force_89: 9204089368147692249
+      DS DSi - Locks Quest - Kingdom Force_9: -7957003550308521036
+      DS DSi - Locks Quest - Kingdom Force_90: 2217431891491830520
+      DS DSi - Locks Quest - Kingdom Force_91: 1675367232984813277
+      DS DSi - Locks Quest - Kingdom Force_92: -6051257058183935480
+      DS DSi - Locks Quest - Kingdom Force_93: -7062643993253533387
+      DS DSi - Locks Quest - Kingdom Force_94: -6855239723339345260
+      DS DSi - Locks Quest - Kingdom Force_95: 5631079299032801126
+      DS DSi - Locks Quest - Kingdom Force_96: -39837537822100393
+      DS DSi - Locks Quest - Kingdom Force_97: -5961197972521125813
+      DS DSi - Locks Quest - Kingdom Force_98: -5425637851511058858
+      DS DSi - Locks Quest - Kingdom Force_99: 4546954531591936412
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

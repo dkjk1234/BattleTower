@@ -288,7 +288,7 @@ TextureImporter:
       213: -8710723588930150523
     second: Forest-Top-Down-2D-Game-Tileset3-768x512_94
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -308,6 +308,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -317,8 +319,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -339,10 +341,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -370,6 +376,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2325,6 +2343,99 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Forest-Top-Down-2D-Game-Tileset3-768x512_0: -1302549854944064937
+      Forest-Top-Down-2D-Game-Tileset3-768x512_1: -6323694740835311123
+      Forest-Top-Down-2D-Game-Tileset3-768x512_10: -7521009577891025560
+      Forest-Top-Down-2D-Game-Tileset3-768x512_11: 4467264770044724655
+      Forest-Top-Down-2D-Game-Tileset3-768x512_12: 1198026228490563347
+      Forest-Top-Down-2D-Game-Tileset3-768x512_13: 8182371136232587346
+      Forest-Top-Down-2D-Game-Tileset3-768x512_14: 5805619626404595984
+      Forest-Top-Down-2D-Game-Tileset3-768x512_15: 4582959738291016023
+      Forest-Top-Down-2D-Game-Tileset3-768x512_16: -6272816995904502533
+      Forest-Top-Down-2D-Game-Tileset3-768x512_17: -1806635496475343889
+      Forest-Top-Down-2D-Game-Tileset3-768x512_18: -5825322106448809552
+      Forest-Top-Down-2D-Game-Tileset3-768x512_19: 3653387056670758481
+      Forest-Top-Down-2D-Game-Tileset3-768x512_2: 8715876457687441485
+      Forest-Top-Down-2D-Game-Tileset3-768x512_20: 6823909807020016443
+      Forest-Top-Down-2D-Game-Tileset3-768x512_21: 8503326101415579894
+      Forest-Top-Down-2D-Game-Tileset3-768x512_22: 196639311021348617
+      Forest-Top-Down-2D-Game-Tileset3-768x512_23: 3251944204618799888
+      Forest-Top-Down-2D-Game-Tileset3-768x512_24: 959964967215107626
+      Forest-Top-Down-2D-Game-Tileset3-768x512_25: -1291199506873123069
+      Forest-Top-Down-2D-Game-Tileset3-768x512_26: -6182092869585969078
+      Forest-Top-Down-2D-Game-Tileset3-768x512_27: 2489099548703018590
+      Forest-Top-Down-2D-Game-Tileset3-768x512_28: -8336774893292081274
+      Forest-Top-Down-2D-Game-Tileset3-768x512_29: -4644097488800647529
+      Forest-Top-Down-2D-Game-Tileset3-768x512_3: 1695149895210621445
+      Forest-Top-Down-2D-Game-Tileset3-768x512_30: 8841445966293415078
+      Forest-Top-Down-2D-Game-Tileset3-768x512_31: -5584168517971482508
+      Forest-Top-Down-2D-Game-Tileset3-768x512_32: 8019488453570309665
+      Forest-Top-Down-2D-Game-Tileset3-768x512_33: -8843768859105621226
+      Forest-Top-Down-2D-Game-Tileset3-768x512_34: 1345837192855643262
+      Forest-Top-Down-2D-Game-Tileset3-768x512_35: -5795157263151539965
+      Forest-Top-Down-2D-Game-Tileset3-768x512_36: 6841299282445306234
+      Forest-Top-Down-2D-Game-Tileset3-768x512_37: 1240189558437223764
+      Forest-Top-Down-2D-Game-Tileset3-768x512_38: 2715844198492811661
+      Forest-Top-Down-2D-Game-Tileset3-768x512_39: -3392338065874277460
+      Forest-Top-Down-2D-Game-Tileset3-768x512_4: -4003857908531226192
+      Forest-Top-Down-2D-Game-Tileset3-768x512_40: 9103745828540282894
+      Forest-Top-Down-2D-Game-Tileset3-768x512_41: 4827826553603150789
+      Forest-Top-Down-2D-Game-Tileset3-768x512_42: -4504195707386717630
+      Forest-Top-Down-2D-Game-Tileset3-768x512_43: 8682955669743994327
+      Forest-Top-Down-2D-Game-Tileset3-768x512_44: -2952393106605538032
+      Forest-Top-Down-2D-Game-Tileset3-768x512_45: 6889367518825075888
+      Forest-Top-Down-2D-Game-Tileset3-768x512_46: -903630274926321510
+      Forest-Top-Down-2D-Game-Tileset3-768x512_47: 3129264833715208358
+      Forest-Top-Down-2D-Game-Tileset3-768x512_48: 1548471305108793530
+      Forest-Top-Down-2D-Game-Tileset3-768x512_49: -9158787898619621082
+      Forest-Top-Down-2D-Game-Tileset3-768x512_5: -8836381337842063365
+      Forest-Top-Down-2D-Game-Tileset3-768x512_50: 3646884904159279132
+      Forest-Top-Down-2D-Game-Tileset3-768x512_51: -8342042703736341276
+      Forest-Top-Down-2D-Game-Tileset3-768x512_52: 7569199393798689957
+      Forest-Top-Down-2D-Game-Tileset3-768x512_53: -5891791952348439150
+      Forest-Top-Down-2D-Game-Tileset3-768x512_54: -7030411322486481925
+      Forest-Top-Down-2D-Game-Tileset3-768x512_55: 210442973132062295
+      Forest-Top-Down-2D-Game-Tileset3-768x512_56: -1207881901622633285
+      Forest-Top-Down-2D-Game-Tileset3-768x512_57: 2527630407868947
+      Forest-Top-Down-2D-Game-Tileset3-768x512_58: -8739039414244827516
+      Forest-Top-Down-2D-Game-Tileset3-768x512_59: -4376436630542199122
+      Forest-Top-Down-2D-Game-Tileset3-768x512_6: -4640467443740148451
+      Forest-Top-Down-2D-Game-Tileset3-768x512_60: -621747828033485633
+      Forest-Top-Down-2D-Game-Tileset3-768x512_61: 2311985318626275008
+      Forest-Top-Down-2D-Game-Tileset3-768x512_62: -799044094432882017
+      Forest-Top-Down-2D-Game-Tileset3-768x512_63: -7483151555056396456
+      Forest-Top-Down-2D-Game-Tileset3-768x512_64: -9165245430667186233
+      Forest-Top-Down-2D-Game-Tileset3-768x512_65: -4471549758284608170
+      Forest-Top-Down-2D-Game-Tileset3-768x512_66: 3737773975465681500
+      Forest-Top-Down-2D-Game-Tileset3-768x512_67: 5037304936804005081
+      Forest-Top-Down-2D-Game-Tileset3-768x512_68: -3536661351338825429
+      Forest-Top-Down-2D-Game-Tileset3-768x512_69: -1771715680713342342
+      Forest-Top-Down-2D-Game-Tileset3-768x512_7: -2638331423930760482
+      Forest-Top-Down-2D-Game-Tileset3-768x512_70: 5185597099162058868
+      Forest-Top-Down-2D-Game-Tileset3-768x512_71: 7629505979280843440
+      Forest-Top-Down-2D-Game-Tileset3-768x512_72: 6798791088061507582
+      Forest-Top-Down-2D-Game-Tileset3-768x512_73: -5417062198391107467
+      Forest-Top-Down-2D-Game-Tileset3-768x512_74: -7265966736525895009
+      Forest-Top-Down-2D-Game-Tileset3-768x512_75: -8354979559320343498
+      Forest-Top-Down-2D-Game-Tileset3-768x512_76: -6593614596300386908
+      Forest-Top-Down-2D-Game-Tileset3-768x512_77: 1632390577837556539
+      Forest-Top-Down-2D-Game-Tileset3-768x512_78: -4529620833310441458
+      Forest-Top-Down-2D-Game-Tileset3-768x512_79: -359721579064549177
+      Forest-Top-Down-2D-Game-Tileset3-768x512_8: 6614268888069133996
+      Forest-Top-Down-2D-Game-Tileset3-768x512_80: 3111756353359143566
+      Forest-Top-Down-2D-Game-Tileset3-768x512_81: -4885756653760512347
+      Forest-Top-Down-2D-Game-Tileset3-768x512_82: 8967299502849503105
+      Forest-Top-Down-2D-Game-Tileset3-768x512_83: -9182718121326098756
+      Forest-Top-Down-2D-Game-Tileset3-768x512_84: -5086878512208738730
+      Forest-Top-Down-2D-Game-Tileset3-768x512_85: -6402587440690561148
+      Forest-Top-Down-2D-Game-Tileset3-768x512_86: -6174768007139153842
+      Forest-Top-Down-2D-Game-Tileset3-768x512_87: 1584859857857293547
+      Forest-Top-Down-2D-Game-Tileset3-768x512_88: 2856759497204183398
+      Forest-Top-Down-2D-Game-Tileset3-768x512_89: 8381341945735672135
+      Forest-Top-Down-2D-Game-Tileset3-768x512_9: -3782400177519862660
+      Forest-Top-Down-2D-Game-Tileset3-768x512_90: 1141950258811466050
+      Forest-Top-Down-2D-Game-Tileset3-768x512_91: 2817734152680024678
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -93,7 +93,7 @@ TextureImporter:
       213: 5786665836614862806
     second: DS DSi - Locks Quest - Heavy2_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,8 +124,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,10 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -175,6 +181,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -828,6 +846,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Locks Quest - Heavy2_0: 6249338112126407310
+      DS DSi - Locks Quest - Heavy2_1: 4757677605880258219
+      DS DSi - Locks Quest - Heavy2_10: -5653996091726040816
+      DS DSi - Locks Quest - Heavy2_11: 1680771518485179510
+      DS DSi - Locks Quest - Heavy2_12: -3199363726681411091
+      DS DSi - Locks Quest - Heavy2_13: 8474595451352130615
+      DS DSi - Locks Quest - Heavy2_14: 6838000951061324891
+      DS DSi - Locks Quest - Heavy2_15: 953725220773073900
+      DS DSi - Locks Quest - Heavy2_16: 4749863938634067041
+      DS DSi - Locks Quest - Heavy2_17: 7139559514828490568
+      DS DSi - Locks Quest - Heavy2_18: -6947528473938203310
+      DS DSi - Locks Quest - Heavy2_19: 4021996061886075895
+      DS DSi - Locks Quest - Heavy2_2: -5972164569258289430
+      DS DSi - Locks Quest - Heavy2_20: -1619483126481778632
+      DS DSi - Locks Quest - Heavy2_21: 2616187037126248531
+      DS DSi - Locks Quest - Heavy2_22: -670570238462056962
+      DS DSi - Locks Quest - Heavy2_23: -31111717237133185
+      DS DSi - Locks Quest - Heavy2_24: 2376468547843720039
+      DS DSi - Locks Quest - Heavy2_25: 3985214418952913715
+      DS DSi - Locks Quest - Heavy2_26: 3212773730725569288
+      DS DSi - Locks Quest - Heavy2_27: 811038334846048737
+      DS DSi - Locks Quest - Heavy2_28: 1494797274770142097
+      DS DSi - Locks Quest - Heavy2_29: 5786665836614862806
+      DS DSi - Locks Quest - Heavy2_3: -7825450978253381916
+      DS DSi - Locks Quest - Heavy2_4: -4835694193491186756
+      DS DSi - Locks Quest - Heavy2_5: 9122659282316603405
+      DS DSi - Locks Quest - Heavy2_6: -4216318445340520677
+      DS DSi - Locks Quest - Heavy2_7: -5456788687330755965
+      DS DSi - Locks Quest - Heavy2_8: 6628993980026202422
+      DS DSi - Locks Quest - Heavy2_9: -5774255366590920203
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

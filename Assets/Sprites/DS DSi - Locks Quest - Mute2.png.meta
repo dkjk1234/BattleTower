@@ -93,7 +93,7 @@ TextureImporter:
       213: 6980578915887094301
     second: DS DSi - Locks Quest - Mute2_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,6 +113,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,8 +124,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -144,10 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -175,6 +181,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -828,6 +846,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Locks Quest - Mute2_0: -3928857410847758255
+      DS DSi - Locks Quest - Mute2_1: -1117491484168675106
+      DS DSi - Locks Quest - Mute2_10: -8183847065482763697
+      DS DSi - Locks Quest - Mute2_11: 1726252708025920414
+      DS DSi - Locks Quest - Mute2_12: -2628186777279407968
+      DS DSi - Locks Quest - Mute2_13: 1131288125664072586
+      DS DSi - Locks Quest - Mute2_14: 4159337794151856856
+      DS DSi - Locks Quest - Mute2_15: -5334837261090915680
+      DS DSi - Locks Quest - Mute2_16: -3611349496273444214
+      DS DSi - Locks Quest - Mute2_17: -4401868322909335797
+      DS DSi - Locks Quest - Mute2_18: -666931715736428521
+      DS DSi - Locks Quest - Mute2_19: -8916437466187650821
+      DS DSi - Locks Quest - Mute2_2: -2460680290482496269
+      DS DSi - Locks Quest - Mute2_20: 1273928225133985768
+      DS DSi - Locks Quest - Mute2_21: 288980175637614624
+      DS DSi - Locks Quest - Mute2_22: -3145616323002704682
+      DS DSi - Locks Quest - Mute2_23: 8969978880658899736
+      DS DSi - Locks Quest - Mute2_24: -8180227444064466
+      DS DSi - Locks Quest - Mute2_25: -8182467731777541000
+      DS DSi - Locks Quest - Mute2_26: 784543810572252650
+      DS DSi - Locks Quest - Mute2_27: -6560498972104641869
+      DS DSi - Locks Quest - Mute2_28: -3982726280364483239
+      DS DSi - Locks Quest - Mute2_29: 6980578915887094301
+      DS DSi - Locks Quest - Mute2_3: -684358899853969604
+      DS DSi - Locks Quest - Mute2_4: 8854450658273754530
+      DS DSi - Locks Quest - Mute2_5: -3409194099278168522
+      DS DSi - Locks Quest - Mute2_6: -1675353636952271177
+      DS DSi - Locks Quest - Mute2_7: 2903433375076211598
+      DS DSi - Locks Quest - Mute2_8: 4852119158522175615
+      DS DSi - Locks Quest - Mute2_9: 206517897690746684
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -102,7 +102,7 @@ public class Monster : MonoBehaviour {
     //Makes the monster move along the given path
     IEnumerator MonsterMove() {
         while(!isDie && !MoveStop) {
-            transform.position = Vector2.MoveTowards(transform.position, destination, speed);
+            transform.position = Vector2.MoveTowards(transform.position, destination, speed *Time.deltaTime * 60);
             healthBar.transform.position = transform.position + new Vector3(0, 0.43f, 0);
             anim.SetBool("MonsterIdle", false);
 

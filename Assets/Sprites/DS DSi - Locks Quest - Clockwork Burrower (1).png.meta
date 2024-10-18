@@ -219,7 +219,7 @@ TextureImporter:
       213: 502234316490928798
     second: DS DSi - Locks Quest - Clockwork Burrower (1)_71
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -239,6 +239,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -248,8 +250,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -270,10 +272,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -301,6 +307,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1836,6 +1854,79 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Locks Quest - Clockwork Burrower (1)_0: 6981020555965436626
+      DS DSi - Locks Quest - Clockwork Burrower (1)_1: 1135370478063047726
+      DS DSi - Locks Quest - Clockwork Burrower (1)_10: -5124922229526542004
+      DS DSi - Locks Quest - Clockwork Burrower (1)_11: 4634616876887028673
+      DS DSi - Locks Quest - Clockwork Burrower (1)_12: 200773501837767467
+      DS DSi - Locks Quest - Clockwork Burrower (1)_13: 999158517276256953
+      DS DSi - Locks Quest - Clockwork Burrower (1)_14: -6378176216454759154
+      DS DSi - Locks Quest - Clockwork Burrower (1)_15: 9036116845320946995
+      DS DSi - Locks Quest - Clockwork Burrower (1)_16: -4388266527538609411
+      DS DSi - Locks Quest - Clockwork Burrower (1)_17: 3506757749707700579
+      DS DSi - Locks Quest - Clockwork Burrower (1)_18: -3971940281587452030
+      DS DSi - Locks Quest - Clockwork Burrower (1)_19: -7817690163804415445
+      DS DSi - Locks Quest - Clockwork Burrower (1)_2: -4126070581771799514
+      DS DSi - Locks Quest - Clockwork Burrower (1)_20: 5317911448123888976
+      DS DSi - Locks Quest - Clockwork Burrower (1)_21: 4397414082283789908
+      DS DSi - Locks Quest - Clockwork Burrower (1)_22: -2317206320907183506
+      DS DSi - Locks Quest - Clockwork Burrower (1)_23: -3925196782600749885
+      DS DSi - Locks Quest - Clockwork Burrower (1)_24: 1382950642644627375
+      DS DSi - Locks Quest - Clockwork Burrower (1)_25: 7349277186977584986
+      DS DSi - Locks Quest - Clockwork Burrower (1)_26: 8953264569326099273
+      DS DSi - Locks Quest - Clockwork Burrower (1)_27: -1300446843207311989
+      DS DSi - Locks Quest - Clockwork Burrower (1)_28: 5183102724394852833
+      DS DSi - Locks Quest - Clockwork Burrower (1)_29: 4173173103201153342
+      DS DSi - Locks Quest - Clockwork Burrower (1)_3: 8349291844388320169
+      DS DSi - Locks Quest - Clockwork Burrower (1)_30: -8116540591154930875
+      DS DSi - Locks Quest - Clockwork Burrower (1)_31: -1782776607224993770
+      DS DSi - Locks Quest - Clockwork Burrower (1)_32: -6259106939178151869
+      DS DSi - Locks Quest - Clockwork Burrower (1)_33: 2381835748125776695
+      DS DSi - Locks Quest - Clockwork Burrower (1)_34: 3710552787648228299
+      DS DSi - Locks Quest - Clockwork Burrower (1)_35: 3988374973794782187
+      DS DSi - Locks Quest - Clockwork Burrower (1)_36: -3377759253234117548
+      DS DSi - Locks Quest - Clockwork Burrower (1)_37: 5516467005649028541
+      DS DSi - Locks Quest - Clockwork Burrower (1)_38: 3727130586993459341
+      DS DSi - Locks Quest - Clockwork Burrower (1)_39: 7776505025841914965
+      DS DSi - Locks Quest - Clockwork Burrower (1)_4: 2048191434092281418
+      DS DSi - Locks Quest - Clockwork Burrower (1)_40: -2387174131136479515
+      DS DSi - Locks Quest - Clockwork Burrower (1)_41: -2798105127415307710
+      DS DSi - Locks Quest - Clockwork Burrower (1)_42: 1828818519457969497
+      DS DSi - Locks Quest - Clockwork Burrower (1)_43: 2290620176882375289
+      DS DSi - Locks Quest - Clockwork Burrower (1)_44: -307149002235819715
+      DS DSi - Locks Quest - Clockwork Burrower (1)_45: -4706872752178093555
+      DS DSi - Locks Quest - Clockwork Burrower (1)_46: 5184769339619852809
+      DS DSi - Locks Quest - Clockwork Burrower (1)_47: 6905189140555187123
+      DS DSi - Locks Quest - Clockwork Burrower (1)_48: 6404624985657720799
+      DS DSi - Locks Quest - Clockwork Burrower (1)_49: -8359732327546787481
+      DS DSi - Locks Quest - Clockwork Burrower (1)_5: -1995430694567193496
+      DS DSi - Locks Quest - Clockwork Burrower (1)_50: 18461410239297360
+      DS DSi - Locks Quest - Clockwork Burrower (1)_51: -5075359429250729713
+      DS DSi - Locks Quest - Clockwork Burrower (1)_52: 5230113883391646712
+      DS DSi - Locks Quest - Clockwork Burrower (1)_53: 2977064022835285667
+      DS DSi - Locks Quest - Clockwork Burrower (1)_54: 93233118386779611
+      DS DSi - Locks Quest - Clockwork Burrower (1)_55: -7149292696896966187
+      DS DSi - Locks Quest - Clockwork Burrower (1)_56: -8871653665751489287
+      DS DSi - Locks Quest - Clockwork Burrower (1)_57: 7235392490107774165
+      DS DSi - Locks Quest - Clockwork Burrower (1)_58: -8792654550569605673
+      DS DSi - Locks Quest - Clockwork Burrower (1)_59: -3145679443113460115
+      DS DSi - Locks Quest - Clockwork Burrower (1)_6: 1340913477680619993
+      DS DSi - Locks Quest - Clockwork Burrower (1)_60: -5670058540560211396
+      DS DSi - Locks Quest - Clockwork Burrower (1)_61: -6403850089362344995
+      DS DSi - Locks Quest - Clockwork Burrower (1)_62: -9149738866807970102
+      DS DSi - Locks Quest - Clockwork Burrower (1)_63: 4182912142271926070
+      DS DSi - Locks Quest - Clockwork Burrower (1)_64: 5613453531427994829
+      DS DSi - Locks Quest - Clockwork Burrower (1)_65: 7381170185741558209
+      DS DSi - Locks Quest - Clockwork Burrower (1)_66: 8996260521904293379
+      DS DSi - Locks Quest - Clockwork Burrower (1)_67: -6294941574694483461
+      DS DSi - Locks Quest - Clockwork Burrower (1)_68: -4268077233174965913
+      DS DSi - Locks Quest - Clockwork Burrower (1)_69: 1944906766570192201
+      DS DSi - Locks Quest - Clockwork Burrower (1)_7: 9143515590010480850
+      DS DSi - Locks Quest - Clockwork Burrower (1)_70: 6052559552459424192
+      DS DSi - Locks Quest - Clockwork Burrower (1)_71: 502234316490928798
+      DS DSi - Locks Quest - Clockwork Burrower (1)_8: -4492391389123939140
+      DS DSi - Locks Quest - Clockwork Burrower (1)_9: -2731636297702636076
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

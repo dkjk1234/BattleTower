@@ -15,11 +15,13 @@ public class Paths {
     }
 }
 
-public class LevelManager : Singleton<LevelManager> {
-
+public class LevelManager : MonoBehaviour
+{
+    
     int gameLevel;
     public int GameLevel { get => gameLevel; }
 
+    
     Tilemap map, spawnMap;
     Grid grid;
 
@@ -40,9 +42,18 @@ public class LevelManager : Singleton<LevelManager> {
 
     [SerializeField]
     private Sprite[] walkAbleTiles;
+    
+    
+    public static LevelManager Instance { get; private set; }
 
+    public Dictionary<Point, SpawnPoint> SpawnInfos { get; private set; }
     public Dictionary<Point, TileScript> SpawnPoints;
 
+    private void Awake()
+    {
+        Instance = this;
+        // Initialize your SpawnPoints dictionary here
+    }
     void Start() {
         grid = GetComponent<Grid>();
         Loading.SetTrigger("FadeIn");
@@ -51,7 +62,6 @@ public class LevelManager : Singleton<LevelManager> {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         CreateLevel();       
     }
-
     void CreateLevel() {
         map = GameManager.Instance.objectManager.GetObject("Level"+gameLevel.ToString()).GetComponent<Tilemap>();
         map.transform.SetParent(transform);
@@ -64,16 +74,16 @@ public class LevelManager : Singleton<LevelManager> {
         Tile = spawnMap.GetComponent<TileScript>();
         GetWorldTiles();
     }
-
-    // Use this for initialization
     void GetWorldTiles() {
         SpawnPoints = new Dictionary<Point, TileScript>();
         foreach(Vector3Int pos in spawnMap.cellBounds.allPositionsWithin) {
+            
             var localPlace = new Vector3Int(pos.x, pos.y, pos.z);
+            /*if(!spawnMap.HasTile(localPlace))
+                continue;*/
 
-            if(!spawnMap.HasTile(localPlace))
-                continue;
-            var tile = new TileScript {
+            var tile = new TileScript
+            {
                 LocalPlace = localPlace,
                 WorldLocation = spawnMap.CellToWorld(localPlace),
                 GridPosition = new Point(localPlace.x, localPlace.y),
@@ -82,11 +92,12 @@ public class LevelManager : Singleton<LevelManager> {
                 TowerLevel = 0,
                 TowerLevelMax = false
             };
+            
             SpawnPoints.Add(tile.GridPosition, tile);
         }
         SpawnPortal();
     }
-
+    
     void SpawnPortal() {
         for(int i = 0; i < Tile.GreenPortalPos.Length; i++) {
             greenPortal[i].gameObject.SetActive(true);
@@ -98,15 +109,28 @@ public class LevelManager : Singleton<LevelManager> {
         purplePortal.transform.rotation = Tile.PurplePortalPos.rotation;
     }
 
-    public void GeneratePath(int wayIndex) {
-        MapPaths.Add(new Paths());
-        MapPaths[wayIndex].path = new Stack<Vector3>();
-        foreach(Transform pos in Tile.MonsterWay[wayIndex].CheckPoints) {
-            MapPaths[wayIndex].path.Push(pos.position);
-        }
+    public Point WorldToGridPosition(Vector3 worldPosition)
+    {
+        // Convert world position to grid coordinates
+        int x = Mathf.FloorToInt(worldPosition.x);
+        int y = Mathf.FloorToInt(worldPosition.y);
+        return new Point(x, y);
     }
 
-    public bool IsWalkableTile(Vector3 pos) {
+    public Vector3 GridToWorldPosition(Point gridPosition)
+    {
+        // Convert grid coordinates back to world position
+        float x = gridPosition.x + 0.5f; // Adjust as per your grid size
+        float y = gridPosition.y + 0.5f;
+        return new Vector3(x, y, 0f) + new Vector3(0, 0.13f, 0) + new Vector3(-0.349000007f,0.0909999982f,0f);
+    }
+
+    public bool IsValidTowerPosition(Point gridPosition)
+    {
+        // Check if the grid position is within bounds and not occupied
+        return !SpawnPoints[gridPosition].HasTower && !IsWalkableTile(GridToWorldPosition(gridPosition));
+    }
+      public bool IsWalkableTile(Vector3 pos) {
         var tilePos = grid.WorldToCell(pos);
         var _tileSprite = map.GetSprite(tilePos);
         foreach(Sprite tile in walkAbleTiles) {
@@ -116,6 +140,11 @@ public class LevelManager : Singleton<LevelManager> {
         }
         return false;
     }
-
-
+    public void GeneratePath(int wayIndex) {
+        MapPaths.Add(new Paths());
+        MapPaths[wayIndex].path = new Stack<Vector3>();
+        foreach(Transform pos in Tile.MonsterWay[wayIndex].CheckPoints) {
+            MapPaths[wayIndex].path.Push(pos.position);
+        }
+    }
 }

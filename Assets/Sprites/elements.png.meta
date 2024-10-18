@@ -570,7 +570,7 @@ TextureImporter:
       213: 4781819405587281244
     second: elements_188
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -590,6 +590,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -599,8 +601,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -621,10 +623,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -652,6 +658,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4644,6 +4662,196 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      elements_0: 869762779325548650
+      elements_1: -5391307981071726051
+      elements_10: 137151238046979877
+      elements_100: 5942427163660810880
+      elements_101: 6379172255236636849
+      elements_102: -1454704778569402526
+      elements_103: 177286020181607329
+      elements_104: -4584814990114572067
+      elements_105: -3215380932432038033
+      elements_106: 5488730245067025944
+      elements_107: 5177861654681496225
+      elements_108: 4370112137001608053
+      elements_109: 2654942548516631984
+      elements_11: 7582964038499862110
+      elements_110: -5410758478999268175
+      elements_111: -1488873895922247051
+      elements_112: 4630436763650391247
+      elements_113: 470169165000001796
+      elements_114: -8545699340740674575
+      elements_115: -338652472026059702
+      elements_116: -2085889482210497143
+      elements_117: -5881621524326743141
+      elements_118: 6599726598262781095
+      elements_119: 2102118870384266899
+      elements_12: -6123155731546979588
+      elements_120: -8451338663338293700
+      elements_121: -557405335140987876
+      elements_122: -457233401344095052
+      elements_123: 1832800363704519555
+      elements_124: -4570283937006776999
+      elements_125: -73195146408280889
+      elements_126: -481213870045004619
+      elements_127: -2676402402481071126
+      elements_128: -2007060016042921429
+      elements_129: 6797543891412949290
+      elements_13: -830853010422553840
+      elements_130: -977216714047206446
+      elements_131: -5400322124299658306
+      elements_132: -7504846886027709855
+      elements_133: -417420046316910204
+      elements_134: 110300578862993099
+      elements_135: -3053028759275758115
+      elements_136: 2173058089239909603
+      elements_137: -6206313357325045488
+      elements_138: -6549567280164057789
+      elements_139: 3495233879592804881
+      elements_14: 7522057410018712496
+      elements_140: 2348978769545000268
+      elements_141: -5203678025706647664
+      elements_142: -4485087869137871627
+      elements_143: -4716231175559627666
+      elements_144: 6418698681898714865
+      elements_145: 685527404958027685
+      elements_146: 2156128917420623743
+      elements_147: -6853601050446025317
+      elements_148: 5028717322783736372
+      elements_149: 8475042653646656432
+      elements_15: 5190090530299845402
+      elements_150: -423672925659402767
+      elements_151: -8722236943400088853
+      elements_152: 7195073599068955719
+      elements_153: -2388572094991385244
+      elements_154: 1969003014521448540
+      elements_155: -4264207166015699626
+      elements_156: -5072636651845328799
+      elements_157: 7009051546762147586
+      elements_158: -7701590143295444870
+      elements_159: -3262086941813667829
+      elements_16: 2844923009556453745
+      elements_160: 7721356077248620249
+      elements_161: -581410719506214581
+      elements_162: -1830637131083754855
+      elements_163: -4393502060045917515
+      elements_164: 3298021568795920192
+      elements_165: -6833567006928193816
+      elements_166: 6726715887055943644
+      elements_167: -4348273433245187421
+      elements_168: -1892650361360312412
+      elements_169: 4630093101055626707
+      elements_17: 423605440508702846
+      elements_170: 505576646611822944
+      elements_171: -5565271007913895794
+      elements_172: 2841342318367408747
+      elements_173: -6335746876744506077
+      elements_174: 7423880715925478250
+      elements_175: 1492825174679083280
+      elements_176: 786924001038301214
+      elements_177: -470908525037062284
+      elements_178: -7945633087424173785
+      elements_179: 1383377185151083143
+      elements_18: 6535756550885404928
+      elements_180: -5593514723270390341
+      elements_181: -4010337548427146505
+      elements_182: 4330132304066442257
+      elements_183: -8943165896346111784
+      elements_184: 5131072161541956238
+      elements_185: 2844933764063273888
+      elements_186: -2833668164259008531
+      elements_187: 6093869898795412880
+      elements_188: 4781819405587281244
+      elements_19: 1039384551613093888
+      elements_2: -3293433503042108997
+      elements_20: -4225339513409241284
+      elements_21: 7645654662201184555
+      elements_22: -3058687002279738329
+      elements_23: -6829392826066141881
+      elements_24: -6499880414477926584
+      elements_25: -7770517394667394791
+      elements_26: 1388512207951813294
+      elements_27: 121974444637265294
+      elements_28: -1185156069853120339
+      elements_29: -5798743968369977861
+      elements_3: -8115037194750826008
+      elements_30: 7421376891836555153
+      elements_31: -3176181476495618468
+      elements_32: -7967394290055307264
+      elements_33: 4712537725945604637
+      elements_34: -2650457137970626630
+      elements_35: -603420144969217272
+      elements_36: 5891831650104768423
+      elements_37: 1890014894177099053
+      elements_38: 3146589215605440072
+      elements_39: 5973917385362363594
+      elements_4: 6921521097408137175
+      elements_40: -5718304652673602238
+      elements_41: 1308288662139092257
+      elements_42: 6733358224410965991
+      elements_43: -3839098365718509072
+      elements_44: -3553927230185751524
+      elements_45: -2063289831389869427
+      elements_46: -4115351253472635292
+      elements_47: -219801106183008783
+      elements_48: -6636515649705598491
+      elements_49: -5821309095128597483
+      elements_5: -2165821876479576607
+      elements_50: -1069793125584492680
+      elements_51: -2256663202827876095
+      elements_52: 6347155008131280015
+      elements_53: 3034530936610766900
+      elements_54: -5209039100888913198
+      elements_55: 4400154515600994788
+      elements_56: 4306174112409749816
+      elements_57: -8126837720610292825
+      elements_58: 704652683373180332
+      elements_59: 9053855959760001937
+      elements_6: 3035516792126375084
+      elements_60: -6724983645086194019
+      elements_61: -7803041637768603816
+      elements_62: -5469195831075292304
+      elements_63: -350880028763527791
+      elements_64: -732643056196826163
+      elements_65: -7122936527668772043
+      elements_66: -85904792958806526
+      elements_67: 1478535732589656417
+      elements_68: -4854804195270017855
+      elements_69: 8564816958392922415
+      elements_7: 3120384529538254799
+      elements_70: -8495656396265847615
+      elements_71: 7171472097732032355
+      elements_72: 5326578457265619760
+      elements_73: -6310568937453353072
+      elements_74: -6144425377943528510
+      elements_75: -1259281668045737018
+      elements_76: 498165651673497898
+      elements_77: 5459846248576688050
+      elements_78: -1798808481569260391
+      elements_79: 7775868085407957015
+      elements_8: -2460338916415796878
+      elements_80: -3390589438948421825
+      elements_81: 8083998381186229496
+      elements_82: -343936019528604459
+      elements_83: -640078245291515357
+      elements_84: -8534414752537287492
+      elements_85: -1283193715527031965
+      elements_86: 7148329171562311800
+      elements_87: -6688075741675653169
+      elements_88: 8366234517211898097
+      elements_89: -4810291852686704908
+      elements_9: -7650491522465657418
+      elements_90: 2470135587238565496
+      elements_91: -4421309011200827693
+      elements_92: 2615847484889242233
+      elements_93: 2862502591880408550
+      elements_94: -4175391083737868080
+      elements_95: -320448951903238641
+      elements_96: -430749683788429678
+      elements_97: 865259501658486713
+      elements_98: 125394963667094373
+      elements_99: 1923207660651811963
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

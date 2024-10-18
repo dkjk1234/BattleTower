@@ -246,7 +246,7 @@ TextureImporter:
       213: 1973570080806509360
     second: DS DSi - Locks Quest - Clockwork Knight2_80
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -266,6 +266,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -275,8 +277,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -297,10 +299,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -328,6 +334,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1401,6 +1419,57 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Locks Quest - Clockwork Knight2_0: -2803018937805400246
+      DS DSi - Locks Quest - Clockwork Knight2_1: 6995582824622184471
+      DS DSi - Locks Quest - Clockwork Knight2_10: -6579297119855862824
+      DS DSi - Locks Quest - Clockwork Knight2_11: 6826797307202503022
+      DS DSi - Locks Quest - Clockwork Knight2_12: -5206248845129144445
+      DS DSi - Locks Quest - Clockwork Knight2_13: -5582732958268314231
+      DS DSi - Locks Quest - Clockwork Knight2_14: 604824719301660611
+      DS DSi - Locks Quest - Clockwork Knight2_18: -853201533838304812
+      DS DSi - Locks Quest - Clockwork Knight2_19: -7578239813838928560
+      DS DSi - Locks Quest - Clockwork Knight2_2: 4960229703562704234
+      DS DSi - Locks Quest - Clockwork Knight2_20: 5184734023467311571
+      DS DSi - Locks Quest - Clockwork Knight2_21: -4014984165630782833
+      DS DSi - Locks Quest - Clockwork Knight2_22: 120058347807368867
+      DS DSi - Locks Quest - Clockwork Knight2_23: 7985691322802613134
+      DS DSi - Locks Quest - Clockwork Knight2_27: 6337746109153186961
+      DS DSi - Locks Quest - Clockwork Knight2_28: 7389213332735825357
+      DS DSi - Locks Quest - Clockwork Knight2_29: 9209666527586214448
+      DS DSi - Locks Quest - Clockwork Knight2_3: -5283190347072111713
+      DS DSi - Locks Quest - Clockwork Knight2_30: 6427844831996439602
+      DS DSi - Locks Quest - Clockwork Knight2_31: -6598836725738375094
+      DS DSi - Locks Quest - Clockwork Knight2_32: -8650599393773303643
+      DS DSi - Locks Quest - Clockwork Knight2_36: -1822955361110338756
+      DS DSi - Locks Quest - Clockwork Knight2_37: 2536279281794611339
+      DS DSi - Locks Quest - Clockwork Knight2_38: -407039821876815279
+      DS DSi - Locks Quest - Clockwork Knight2_4: 5666968376415984081
+      DS DSi - Locks Quest - Clockwork Knight2_40: 8330424750723865291
+      DS DSi - Locks Quest - Clockwork Knight2_41: -7158600549369211111
+      DS DSi - Locks Quest - Clockwork Knight2_43: 8511436680843613827
+      DS DSi - Locks Quest - Clockwork Knight2_45: -4017444975140016664
+      DS DSi - Locks Quest - Clockwork Knight2_47: 1272721101936824337
+      DS DSi - Locks Quest - Clockwork Knight2_49: 3847892905386132046
+      DS DSi - Locks Quest - Clockwork Knight2_5: 3956565072703335343
+      DS DSi - Locks Quest - Clockwork Knight2_50: -7118844603819011377
+      DS DSi - Locks Quest - Clockwork Knight2_52: 6714584026712834145
+      DS DSi - Locks Quest - Clockwork Knight2_53: 6357201124261382401
+      DS DSi - Locks Quest - Clockwork Knight2_54: 5679762129070926781
+      DS DSi - Locks Quest - Clockwork Knight2_55: -4179459423143643947
+      DS DSi - Locks Quest - Clockwork Knight2_57: -1627048052724963694
+      DS DSi - Locks Quest - Clockwork Knight2_59: 5655371179961171758
+      DS DSi - Locks Quest - Clockwork Knight2_60: -3290698148206454406
+      DS DSi - Locks Quest - Clockwork Knight2_62: -2631080510013528353
+      DS DSi - Locks Quest - Clockwork Knight2_63: -8047337721653268401
+      DS DSi - Locks Quest - Clockwork Knight2_64: -1884555734237980933
+      DS DSi - Locks Quest - Clockwork Knight2_65: 4356608331712515256
+      DS DSi - Locks Quest - Clockwork Knight2_66: -6686753410740486879
+      DS DSi - Locks Quest - Clockwork Knight2_67: 750957989591425062
+      DS DSi - Locks Quest - Clockwork Knight2_68: -8718586520691305625
+      DS DSi - Locks Quest - Clockwork Knight2_72: 3234443029419880431
+      DS DSi - Locks Quest - Clockwork Knight2_73: 3810088685052408002
+      DS DSi - Locks Quest - Clockwork Knight2_9: 3853424947996689696
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

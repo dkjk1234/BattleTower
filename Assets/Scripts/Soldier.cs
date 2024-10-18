@@ -88,7 +88,7 @@ public class Soldier : MonoBehaviour {
             yield return null;
         }
         anim.SetBool("SoldierMove", false);
-        GameManager.Instance.SoldierPosSign.SetActive(false);
+        //GameManager.Instance.SoldierPosSign.SetActive(false);
 
     }
 

@@ -255,7 +255,7 @@ TextureImporter:
       213: 3519611963251531543
     second: DS DSi - Locks Quest - Clockwork Brute3_83
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -275,6 +275,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -284,8 +286,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -306,10 +308,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -337,6 +343,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1788,6 +1806,75 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Locks Quest - Clockwork Brute3_0: 851590969048608679
+      DS DSi - Locks Quest - Clockwork Brute3_1: 5948873721380726900
+      DS DSi - Locks Quest - Clockwork Brute3_10: 4497934832593850140
+      DS DSi - Locks Quest - Clockwork Brute3_11: 1436454115942982022
+      DS DSi - Locks Quest - Clockwork Brute3_12: 6857308701968631687
+      DS DSi - Locks Quest - Clockwork Brute3_14: -4977962924544378174
+      DS DSi - Locks Quest - Clockwork Brute3_15: -2205701655067831884
+      DS DSi - Locks Quest - Clockwork Brute3_16: -1732000551903613269
+      DS DSi - Locks Quest - Clockwork Brute3_17: 920004485651873759
+      DS DSi - Locks Quest - Clockwork Brute3_18: -8777587675351351722
+      DS DSi - Locks Quest - Clockwork Brute3_19: 650079261380481029
+      DS DSi - Locks Quest - Clockwork Brute3_2: -5261850125866894477
+      DS DSi - Locks Quest - Clockwork Brute3_21: 1399428055202447968
+      DS DSi - Locks Quest - Clockwork Brute3_22: 1281360966832383710
+      DS DSi - Locks Quest - Clockwork Brute3_23: 8814455580731037045
+      DS DSi - Locks Quest - Clockwork Brute3_24: 4056189841694721270
+      DS DSi - Locks Quest - Clockwork Brute3_25: 6039369144466773977
+      DS DSi - Locks Quest - Clockwork Brute3_26: -3321871424950472255
+      DS DSi - Locks Quest - Clockwork Brute3_28: 8564904339424045199
+      DS DSi - Locks Quest - Clockwork Brute3_29: 1540885834365987688
+      DS DSi - Locks Quest - Clockwork Brute3_3: -6312544140016728075
+      DS DSi - Locks Quest - Clockwork Brute3_30: -7198049627991117687
+      DS DSi - Locks Quest - Clockwork Brute3_31: -4028317510295067634
+      DS DSi - Locks Quest - Clockwork Brute3_32: -3600350985969348691
+      DS DSi - Locks Quest - Clockwork Brute3_33: 7251902717043269409
+      DS DSi - Locks Quest - Clockwork Brute3_35: -5666748620418904365
+      DS DSi - Locks Quest - Clockwork Brute3_36: 5855630290658984248
+      DS DSi - Locks Quest - Clockwork Brute3_37: 5840583099082606290
+      DS DSi - Locks Quest - Clockwork Brute3_38: -8334690424325070183
+      DS DSi - Locks Quest - Clockwork Brute3_39: 961294564362498590
+      DS DSi - Locks Quest - Clockwork Brute3_4: -1979508897845924453
+      DS DSi - Locks Quest - Clockwork Brute3_40: 2510509943418196128
+      DS DSi - Locks Quest - Clockwork Brute3_42: -1941939492394960275
+      DS DSi - Locks Quest - Clockwork Brute3_43: 27583587568538045
+      DS DSi - Locks Quest - Clockwork Brute3_44: 6037146648500438808
+      DS DSi - Locks Quest - Clockwork Brute3_45: -2230321408747348258
+      DS DSi - Locks Quest - Clockwork Brute3_46: -5881504504515472922
+      DS DSi - Locks Quest - Clockwork Brute3_47: 5646210624646660487
+      DS DSi - Locks Quest - Clockwork Brute3_49: -7725755889927560288
+      DS DSi - Locks Quest - Clockwork Brute3_5: -1088090386729966691
+      DS DSi - Locks Quest - Clockwork Brute3_50: -3430530845454861422
+      DS DSi - Locks Quest - Clockwork Brute3_51: 2214933201998761661
+      DS DSi - Locks Quest - Clockwork Brute3_52: 154226010092010081
+      DS DSi - Locks Quest - Clockwork Brute3_53: 1662205687593531496
+      DS DSi - Locks Quest - Clockwork Brute3_54: 1378654101804500893
+      DS DSi - Locks Quest - Clockwork Brute3_56: 8797375205923259619
+      DS DSi - Locks Quest - Clockwork Brute3_57: -3625857907540602670
+      DS DSi - Locks Quest - Clockwork Brute3_58: 7272723354250916020
+      DS DSi - Locks Quest - Clockwork Brute3_59: -3170246698657915207
+      DS DSi - Locks Quest - Clockwork Brute3_6: 66558546011499713
+      DS DSi - Locks Quest - Clockwork Brute3_60: 2250960873299542964
+      DS DSi - Locks Quest - Clockwork Brute3_61: -7994077281451867220
+      DS DSi - Locks Quest - Clockwork Brute3_64: -7743288506392620110
+      DS DSi - Locks Quest - Clockwork Brute3_65: 2756961745883451993
+      DS DSi - Locks Quest - Clockwork Brute3_66: -3190219486783702588
+      DS DSi - Locks Quest - Clockwork Brute3_67: 5033956034546818553
+      DS DSi - Locks Quest - Clockwork Brute3_68: 8595725759785170285
+      DS DSi - Locks Quest - Clockwork Brute3_7: 1959835282447599627
+      DS DSi - Locks Quest - Clockwork Brute3_70: 4419347900290042525
+      DS DSi - Locks Quest - Clockwork Brute3_71: -5894656050812268544
+      DS DSi - Locks Quest - Clockwork Brute3_72: -838377850559396893
+      DS DSi - Locks Quest - Clockwork Brute3_73: 8009737235870448041
+      DS DSi - Locks Quest - Clockwork Brute3_75: 838661284407339263
+      DS DSi - Locks Quest - Clockwork Brute3_76: -8299643157790463993
+      DS DSi - Locks Quest - Clockwork Brute3_77: 2150633272563545759
+      DS DSi - Locks Quest - Clockwork Brute3_78: -49383300177763815
+      DS DSi - Locks Quest - Clockwork Brute3_8: 3547281282681153474
+      DS DSi - Locks Quest - Clockwork Brute3_9: -5095779350338393982
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

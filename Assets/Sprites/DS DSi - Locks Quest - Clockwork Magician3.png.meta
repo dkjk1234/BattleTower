@@ -183,7 +183,7 @@ TextureImporter:
       213: -679285197142988958
     second: DS DSi - Locks Quest - Clockwork Magician3_59
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -203,6 +203,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -212,8 +214,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -234,10 +236,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -265,6 +271,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1464,6 +1482,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Locks Quest - Clockwork Magician3_0: 5177714014143262832
+      DS DSi - Locks Quest - Clockwork Magician3_1: -2215306898408231439
+      DS DSi - Locks Quest - Clockwork Magician3_10: -8233757815481985744
+      DS DSi - Locks Quest - Clockwork Magician3_11: 7749008058685005344
+      DS DSi - Locks Quest - Clockwork Magician3_12: 8509462277009215828
+      DS DSi - Locks Quest - Clockwork Magician3_13: 8099272551510632631
+      DS DSi - Locks Quest - Clockwork Magician3_14: 8616045351771904251
+      DS DSi - Locks Quest - Clockwork Magician3_15: -6632222872965525327
+      DS DSi - Locks Quest - Clockwork Magician3_16: -8795824804451096479
+      DS DSi - Locks Quest - Clockwork Magician3_17: -3645866678604928534
+      DS DSi - Locks Quest - Clockwork Magician3_18: -2657607566991890498
+      DS DSi - Locks Quest - Clockwork Magician3_19: -1334404646840474079
+      DS DSi - Locks Quest - Clockwork Magician3_2: -294732081003734559
+      DS DSi - Locks Quest - Clockwork Magician3_20: 866542910534448326
+      DS DSi - Locks Quest - Clockwork Magician3_21: 4972570598349735522
+      DS DSi - Locks Quest - Clockwork Magician3_22: -849635389498494523
+      DS DSi - Locks Quest - Clockwork Magician3_23: -6487917316039766497
+      DS DSi - Locks Quest - Clockwork Magician3_24: -5423535014345236793
+      DS DSi - Locks Quest - Clockwork Magician3_25: -1840862494137120493
+      DS DSi - Locks Quest - Clockwork Magician3_26: 3583459345702756246
+      DS DSi - Locks Quest - Clockwork Magician3_27: -6656934987705393451
+      DS DSi - Locks Quest - Clockwork Magician3_28: 5847766937250362801
+      DS DSi - Locks Quest - Clockwork Magician3_29: -4601137848546297760
+      DS DSi - Locks Quest - Clockwork Magician3_3: 4856515107344288523
+      DS DSi - Locks Quest - Clockwork Magician3_30: 2317500643733248159
+      DS DSi - Locks Quest - Clockwork Magician3_31: -4477270020173739054
+      DS DSi - Locks Quest - Clockwork Magician3_32: -7233962345591926465
+      DS DSi - Locks Quest - Clockwork Magician3_33: -8731508250472579395
+      DS DSi - Locks Quest - Clockwork Magician3_34: -1976457634176859624
+      DS DSi - Locks Quest - Clockwork Magician3_35: 8547907010462364027
+      DS DSi - Locks Quest - Clockwork Magician3_36: 8870371786871720179
+      DS DSi - Locks Quest - Clockwork Magician3_37: 215056753996225376
+      DS DSi - Locks Quest - Clockwork Magician3_38: -5137927620804210772
+      DS DSi - Locks Quest - Clockwork Magician3_39: 1546783386574120193
+      DS DSi - Locks Quest - Clockwork Magician3_4: -9013669609923485625
+      DS DSi - Locks Quest - Clockwork Magician3_40: -6942555681729932709
+      DS DSi - Locks Quest - Clockwork Magician3_41: -4779013414135249971
+      DS DSi - Locks Quest - Clockwork Magician3_42: 6719304797926862501
+      DS DSi - Locks Quest - Clockwork Magician3_43: 8921134825481642710
+      DS DSi - Locks Quest - Clockwork Magician3_44: -7772941098065076181
+      DS DSi - Locks Quest - Clockwork Magician3_45: 7691947146782437044
+      DS DSi - Locks Quest - Clockwork Magician3_46: -9080834602376866843
+      DS DSi - Locks Quest - Clockwork Magician3_47: -2023818007734108891
+      DS DSi - Locks Quest - Clockwork Magician3_48: 8552573460027263180
+      DS DSi - Locks Quest - Clockwork Magician3_49: -7007574275384941625
+      DS DSi - Locks Quest - Clockwork Magician3_5: 294771234235866754
+      DS DSi - Locks Quest - Clockwork Magician3_50: -2605591055913146942
+      DS DSi - Locks Quest - Clockwork Magician3_51: -8760903720902753220
+      DS DSi - Locks Quest - Clockwork Magician3_52: -4649138201316889725
+      DS DSi - Locks Quest - Clockwork Magician3_53: 4688283305857833813
+      DS DSi - Locks Quest - Clockwork Magician3_54: -3634902577265679364
+      DS DSi - Locks Quest - Clockwork Magician3_55: 2290171752236664829
+      DS DSi - Locks Quest - Clockwork Magician3_6: 5793778946209506526
+      DS DSi - Locks Quest - Clockwork Magician3_7: -4349819936312635372
+      DS DSi - Locks Quest - Clockwork Magician3_8: -5685580198674138531
+      DS DSi - Locks Quest - Clockwork Magician3_9: -6137672038275348576
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -144,7 +144,7 @@ TextureImporter:
       213: 5783110830331541931
     second: PC Computer - Warcraft 2 - Magic and Missiles_46
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -164,6 +164,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -173,8 +175,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -195,10 +197,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -226,6 +232,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1131,6 +1149,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Warcraft 2 - Magic and Missiles_0: 7383875153214006392
+      PC Computer - Warcraft 2 - Magic and Missiles_1: -1064837247186912889
+      PC Computer - Warcraft 2 - Magic and Missiles_10: -7387785946013562553
+      PC Computer - Warcraft 2 - Magic and Missiles_11: -4826576279935061279
+      PC Computer - Warcraft 2 - Magic and Missiles_12: -5360429046285451691
+      PC Computer - Warcraft 2 - Magic and Missiles_13: 3464051574841182554
+      PC Computer - Warcraft 2 - Magic and Missiles_14: -8322715048385180786
+      PC Computer - Warcraft 2 - Magic and Missiles_15: 8321243914387403463
+      PC Computer - Warcraft 2 - Magic and Missiles_16: -707467354676739193
+      PC Computer - Warcraft 2 - Magic and Missiles_17: -625725646592826223
+      PC Computer - Warcraft 2 - Magic and Missiles_18: -793645924050835722
+      PC Computer - Warcraft 2 - Magic and Missiles_19: -1864339917402882321
+      PC Computer - Warcraft 2 - Magic and Missiles_2: 7865487142317556617
+      PC Computer - Warcraft 2 - Magic and Missiles_20: 2874013745673378480
+      PC Computer - Warcraft 2 - Magic and Missiles_21: -7374229760200838423
+      PC Computer - Warcraft 2 - Magic and Missiles_22: -4650322839643814674
+      PC Computer - Warcraft 2 - Magic and Missiles_23: 3387733552627525116
+      PC Computer - Warcraft 2 - Magic and Missiles_24: 2199325107140577317
+      PC Computer - Warcraft 2 - Magic and Missiles_25: 449368387557750932
+      PC Computer - Warcraft 2 - Magic and Missiles_26: -5906432231778098902
+      PC Computer - Warcraft 2 - Magic and Missiles_27: 2441271159292180683
+      PC Computer - Warcraft 2 - Magic and Missiles_28: 4413486787738995489
+      PC Computer - Warcraft 2 - Magic and Missiles_29: -4277221072239476670
+      PC Computer - Warcraft 2 - Magic and Missiles_3: -3843658320941296043
+      PC Computer - Warcraft 2 - Magic and Missiles_30: -1698843606867497356
+      PC Computer - Warcraft 2 - Magic and Missiles_31: -7333122616665933697
+      PC Computer - Warcraft 2 - Magic and Missiles_32: -8965907987342403970
+      PC Computer - Warcraft 2 - Magic and Missiles_38: 2872838506416356405
+      PC Computer - Warcraft 2 - Magic and Missiles_39: 883802704126332439
+      PC Computer - Warcraft 2 - Magic and Missiles_4: 2824479546470522846
+      PC Computer - Warcraft 2 - Magic and Missiles_40: 2543151606879323755
+      PC Computer - Warcraft 2 - Magic and Missiles_41: -1126747623686042473
+      PC Computer - Warcraft 2 - Magic and Missiles_42: -5608728864038120976
+      PC Computer - Warcraft 2 - Magic and Missiles_43: -743671923468540361
+      PC Computer - Warcraft 2 - Magic and Missiles_44: -1175553252392005052
+      PC Computer - Warcraft 2 - Magic and Missiles_45: -917279455956755577
+      PC Computer - Warcraft 2 - Magic and Missiles_46: 5783110830331541931
+      PC Computer - Warcraft 2 - Magic and Missiles_5: -3266656791359522727
+      PC Computer - Warcraft 2 - Magic and Missiles_6: -5853883237966204131
+      PC Computer - Warcraft 2 - Magic and Missiles_7: -3638862418810230199
+      PC Computer - Warcraft 2 - Magic and Missiles_8: 1302584995394602611
+      PC Computer - Warcraft 2 - Magic and Missiles_9: 1838689236773533688
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

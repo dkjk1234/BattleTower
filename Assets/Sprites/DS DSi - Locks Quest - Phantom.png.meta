@@ -573,7 +573,7 @@ TextureImporter:
       213: 2992312901368079908
     second: DS DSi - Locks Quest - Phantom_189
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -593,6 +593,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -602,8 +604,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -624,10 +626,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -655,6 +661,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1854,6 +1872,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Locks Quest - Phantom_0: 9206119240348823103
+      DS DSi - Locks Quest - Phantom_1: -3227207549880841501
+      DS DSi - Locks Quest - Phantom_10: 2111309455102338579
+      DS DSi - Locks Quest - Phantom_11: -942680622114206348
+      DS DSi - Locks Quest - Phantom_12: -1412041960653011282
+      DS DSi - Locks Quest - Phantom_13: 4344717337519817568
+      DS DSi - Locks Quest - Phantom_14: -3631726108288857145
+      DS DSi - Locks Quest - Phantom_15: 5387474180657601873
+      DS DSi - Locks Quest - Phantom_16: -3323882320074646277
+      DS DSi - Locks Quest - Phantom_17: -1464229610701779931
+      DS DSi - Locks Quest - Phantom_18: -1221305431632540224
+      DS DSi - Locks Quest - Phantom_19: 349839364482902028
+      DS DSi - Locks Quest - Phantom_2: 4475690189147829160
+      DS DSi - Locks Quest - Phantom_20: 5306723146248524833
+      DS DSi - Locks Quest - Phantom_21: -3749627853683067938
+      DS DSi - Locks Quest - Phantom_22: 9003805619303902977
+      DS DSi - Locks Quest - Phantom_23: -4355863133510707584
+      DS DSi - Locks Quest - Phantom_24: 8678469344825108023
+      DS DSi - Locks Quest - Phantom_25: 531350633797513868
+      DS DSi - Locks Quest - Phantom_26: -2032724809671348752
+      DS DSi - Locks Quest - Phantom_27: -7421344159008357403
+      DS DSi - Locks Quest - Phantom_28: -6328614497652661305
+      DS DSi - Locks Quest - Phantom_29: -118579334649641010
+      DS DSi - Locks Quest - Phantom_3: 8308572808349394106
+      DS DSi - Locks Quest - Phantom_30: -448573460876931317
+      DS DSi - Locks Quest - Phantom_31: 2737911095038378261
+      DS DSi - Locks Quest - Phantom_32: 7871119214990571993
+      DS DSi - Locks Quest - Phantom_33: 8176386405358988244
+      DS DSi - Locks Quest - Phantom_34: 7782379702201269870
+      DS DSi - Locks Quest - Phantom_35: 4790423490592437731
+      DS DSi - Locks Quest - Phantom_36: 9185809283995986287
+      DS DSi - Locks Quest - Phantom_37: 4322533408831393833
+      DS DSi - Locks Quest - Phantom_38: 7448811655354924186
+      DS DSi - Locks Quest - Phantom_39: -4194533418062221548
+      DS DSi - Locks Quest - Phantom_4: 6416234623381485491
+      DS DSi - Locks Quest - Phantom_40: 5596352749545129235
+      DS DSi - Locks Quest - Phantom_41: 2278843418817789146
+      DS DSi - Locks Quest - Phantom_42: 3908113059452426079
+      DS DSi - Locks Quest - Phantom_43: 628615248869368549
+      DS DSi - Locks Quest - Phantom_44: 560487497204024094
+      DS DSi - Locks Quest - Phantom_45: 3397206308476907553
+      DS DSi - Locks Quest - Phantom_46: -7965149115254392952
+      DS DSi - Locks Quest - Phantom_47: 6880636698908798989
+      DS DSi - Locks Quest - Phantom_48: 8485727851841334040
+      DS DSi - Locks Quest - Phantom_49: -8488152619883213686
+      DS DSi - Locks Quest - Phantom_5: -3869836581152613397
+      DS DSi - Locks Quest - Phantom_50: 620643539412362602
+      DS DSi - Locks Quest - Phantom_51: 212583000395704478
+      DS DSi - Locks Quest - Phantom_52: -9109999058598690046
+      DS DSi - Locks Quest - Phantom_53: -7659267866072930485
+      DS DSi - Locks Quest - Phantom_54: -2801227017478375970
+      DS DSi - Locks Quest - Phantom_55: -7965335863336274270
+      DS DSi - Locks Quest - Phantom_6: -6182013320232069671
+      DS DSi - Locks Quest - Phantom_7: 9193453687842790247
+      DS DSi - Locks Quest - Phantom_8: -7302220204974223320
+      DS DSi - Locks Quest - Phantom_9: -5918989151389781811
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
