@@ -378,7 +378,7 @@ MonoBehaviour:
   towerPrice: 80
   projectileSpeed: 3
   attackCooldown: 0.5
-  projectileType: WizardProjectile5
+  projectileType: WizardProjectile6
   towerSprites:
   - {fileID: -6781790539752713843, guid: baef29a03bc597347985b09a991bf8e3, type: 3}
   - {fileID: 8754882151985107229, guid: baef29a03bc597347985b09a991bf8e3, type: 3}

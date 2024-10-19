@@ -349,7 +349,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5769295240381031883, guid: baef29a03bc597347985b09a991bf8e3,
+  m_Sprite: {fileID: 8046462414437134484, guid: baef29a03bc597347985b09a991bf8e3,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -376,9 +376,9 @@ MonoBehaviour:
   level: 0
   towerIndex: 1
   towerPrice: 80
-  projectileSpeed: 0
-  attackCooldown: 0
-  projectileType: WizardProjectile
+  projectileSpeed: 1
+  attackCooldown: 1
+  projectileType: ArcherProjectile7
   towerSprites:
   - {fileID: -6781790539752713843, guid: baef29a03bc597347985b09a991bf8e3, type: 3}
   - {fileID: 8754882151985107229, guid: baef29a03bc597347985b09a991bf8e3, type: 3}

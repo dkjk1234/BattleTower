@@ -383,7 +383,7 @@ MonoBehaviour:
   towerPrice: 80
   projectileSpeed: 3
   attackCooldown: 0.5
-  projectileType: Soldier3
+  projectileType: Soldier1
   towerSprites:
   - {fileID: 5129373349243040550, guid: baef29a03bc597347985b09a991bf8e3, type: 3}
   - {fileID: -7079345554954611586, guid: baef29a03bc597347985b09a991bf8e3, type: 3}

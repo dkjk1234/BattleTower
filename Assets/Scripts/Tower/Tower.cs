@@ -50,21 +50,22 @@ public class Tower : MonoBehaviour {
     public Point GridPosition { get; set; }
 
 
+    [SerializeField]
+    private GameObject projectilePrefab;
+
+    [SerializeField]
+    private bool shootsMultiProjectiles = false;
 
 
-    /// <summary>
-    /// 
-    /// </summary>
+
+
 
     private void Start() {
         sr = GetComponent<SpriteRenderer>();
         canAttack = true;
         monsterList = new List<Monster>();
 
-        for (int i = 0; level > i; i++)
-        {
-            LevelUp();
-        }
+
     }
 
     private void Update() {
@@ -78,16 +79,11 @@ public class Tower : MonoBehaviour {
         GameManager.Instance.Towers.Add(GridPosition, this);
 
         LevelManager.Instance.SpawnPoints[GridPosition].TowerLevel++;
-        /*transform.position = worldPos + new Vector3(0, 0.13f, 0);
-        GameManager.Instance.Towers.Add(gridPos, this);
 
-        
-        if(LevelManager.Instance.SpawnPoints[gridPos].TowerLevel.Equals(GameManager.Instance.TowerLevelMax)) 
-            LevelManager.Instance.SpawnPoints[GridPosition].TowerLevelMax = true;*/
 
         Projectile = projectileType;
         towerPrice = GameManager.Instance.towerPrices[towerIndex];
-        //GameManager.Instance.dataManager.Initialize(towerIndex, ref damage, ref projectileSpeed, ref attackCooldown);
+        GameManager.Instance.Money = GameManager.Instance.Money -  towerPrice;
 
         range = transform.GetChild(0).GetComponent<TowerRange>();
         towerRange.enabled = false;
@@ -96,7 +92,6 @@ public class Tower : MonoBehaviour {
         towerRange.transform.localScale = new Vector3(4, 4.5f, 1);
         LevelManager.Instance.SpawnPoints[GridPosition].HasTower = true;
         
-        //Create Soldiers if it is the BARRACKS
         if(ElementType.Equals(Element.BARRACKS)) {
             Soldiers = new Dictionary<int, Soldier>();
             distance = 10000;
@@ -110,20 +105,18 @@ public class Tower : MonoBehaviour {
     public void LevelUp() {
         int level = LevelManager.Instance.SpawnPoints[GridPosition].TowerLevel;
 
-        //Stop upgrading when the tower level is at its maximum
+
         if(level.Equals(GameManager.Instance.TowerLevelMax)) {
             LevelManager.Instance.SpawnPoints[GridPosition].TowerLevelMax = true;
             return;
         }       
-        //if(level.Equals(towerSprites.Length - 1)) {
-            
-        //}
+
 
         level = ++LevelManager.Instance.SpawnPoints[GridPosition].TowerLevel;
         damage++;
         DetermineProjectile();    
 
-        //Replace with next level sprite
+
         sr.sprite = towerSprites[level - 1];
 
         if(ElementType.Equals(Element.BARRACKS)) {
@@ -175,22 +168,18 @@ public class Tower : MonoBehaviour {
 
     private void CheckNeighborTiles()
     {
-        // distance 변수를 각 타워마다 초기화
-        float distance = float.MaxValue;  // 가장 가까운 위치를 찾기 위한 초기값 설정
+   
+        float distance = float.MaxValue;  
 
         foreach (Transform pos in LevelManager.Instance.Tile.SoldierSpawnPos)
         {
-            // 현재 타워 위치와 병사 스폰 위치 간의 거리 계산
-            //float _distance = Vector3.Distance(LevelManager.Instance.SpawnPoints[GridPosition].WorldLocation, pos.position);
+
             float _distance = Vector3.Distance(transform.position, pos.position);
-            // 더 가까운 위치가 있으면 soldierStandardPos를 업데이트
+      
             if (distance > _distance)
             {
-                distance = _distance;  // 새로운 최소 거리를 저장
-                soldierStandardPos = pos.position;  // 가까운 위치로 업데이트
-
-                // Debug 로그로 타워의 월드 위치 출력
-                Debug.Log(LevelManager.Instance.SpawnPoints[GridPosition].WorldLocation);
+                distance = _distance; 
+                soldierStandardPos = pos.position; 
             }
         }
     }

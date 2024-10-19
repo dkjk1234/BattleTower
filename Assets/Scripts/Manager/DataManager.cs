@@ -18,28 +18,12 @@ public class DataManager : MonoBehaviour
         waveData = new Queue<Queue<int>>();
         LevelDataLoad();
 
-        TowerNamesKR = new string[4] { "궁수 타워", "마법사 타워", "대포", "민병대" };
-        TowerNamesENG = new string[4] { "Archer", "Wizard", "Bomb", "Barracks" };
-
-        TowerDescriptions = new string[4]
-        {
-            "궁수들은 멀리서 적들을 사냥하도록 대기합니다.",
-            "마법사들은 물리 피해를 무시하는 마법탄을 발사합니다.",
-            "대포를 쏘아 지상의 적을 공격해 피해를 줍니다.",
-            "적을 차단하며 싸우는 튼튼한 민병대의 훈련소입니다."
-        };
-
         TowerOffensePower = new float[4] { 1f, 2f, 3f, 2f };
         ProjectileSpeed = new float[4] { 3f, 2.5f, 2.3f, 2f };
         AttackCoolDown = new float[4] { 1f, 2f, 3f, 8f };
     }
 
-    public void Initialize(int towerIndex, ref float power, ref float speed, ref float coolTime)
-    {
-        //power = TowerOffensePower[towerIndex];
-        //speed = ProjectileSpeed[towerIndex];
-        //coolTime = AttackCoolDown[towerIndex];
-    }
+
 
     // Reads the level data from a text file
     private void LevelDataLoad()

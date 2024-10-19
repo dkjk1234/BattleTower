@@ -88,15 +88,14 @@ public class Soldier : MonoBehaviour {
             yield return null;
         }
         anim.SetBool("SoldierMove", false);
-        //GameManager.Instance.SoldierPosSign.SetActive(false);
+
 
     }
 
     IEnumerator Attack() {
-        //WaitForSeconds wait = new WaitForSeconds(0.01f);
         while(true) {
             if(spawn) {
-                //Attack when the active monster is within range
+
                 if(Target != null && Target.gameObject.activeSelf && !IsDie && !Target.isDie) {
                     Target.MoveStop = true;
                     Target.StartAttack(this);

@@ -30,9 +30,6 @@ public class LevelManager : MonoBehaviour
     
 
     [SerializeField]
-    new CameraMovement camera;
-
-    [SerializeField]
     Animator Loading;
 
     public GameObject[] greenPortal;
@@ -46,7 +43,6 @@ public class LevelManager : MonoBehaviour
     
     public static LevelManager Instance { get; private set; }
 
-    public Dictionary<Point, SpawnPoint> SpawnInfos { get; private set; }
     public Dictionary<Point, TileScript> SpawnPoints;
 
     private void Awake()
@@ -67,8 +63,7 @@ public class LevelManager : MonoBehaviour
         map.transform.SetParent(transform);
         map.CompressBounds();
 
-        //Camera Setting
-        camera.SetLimits(map.CellToWorld(map.cellBounds.max), map.CellToWorld(map.cellBounds.min));
+        //Camera Settin
         
         spawnMap = map.transform.GetChild(0).GetComponent<Tilemap>();
         Tile = spawnMap.GetComponent<TileScript>();
@@ -79,8 +74,6 @@ public class LevelManager : MonoBehaviour
         foreach(Vector3Int pos in spawnMap.cellBounds.allPositionsWithin) {
             
             var localPlace = new Vector3Int(pos.x, pos.y, pos.z);
-            /*if(!spawnMap.HasTile(localPlace))
-                continue;*/
 
             var tile = new TileScript
             {
@@ -111,7 +104,7 @@ public class LevelManager : MonoBehaviour
 
     public Point WorldToGridPosition(Vector3 worldPosition)
     {
-        // Convert world position to grid coordinates
+ 
         int x = Mathf.FloorToInt(worldPosition.x);
         int y = Mathf.FloorToInt(worldPosition.y);
         return new Point(x, y);
@@ -119,15 +112,15 @@ public class LevelManager : MonoBehaviour
 
     public Vector3 GridToWorldPosition(Point gridPosition)
     {
-        // Convert grid coordinates back to world position
-        float x = gridPosition.x + 0.5f; // Adjust as per your grid size
+        float x = gridPosition.x + 0.5f; 
         float y = gridPosition.y + 0.5f;
         return new Vector3(x, y, 0f);
     }
 
     public bool IsValidTowerPosition(Point gridPosition)
     {
-        // Check if the grid position is within bounds and not occupied
+
+
         if(!SpawnPoints.ContainsKey(gridPosition))
         {
             return false;
