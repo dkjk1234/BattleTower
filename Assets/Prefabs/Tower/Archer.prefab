@@ -372,9 +372,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e274a3a08ce73d54a9c14428319f348a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: 0
   towerIndex: 0
   towerPrice: 70
-  projectileType: ArcherProjectile
+  projectileType: ArcherProjectile1
   towerSprites:
   - {fileID: 3074545804424626175, guid: baef29a03bc597347985b09a991bf8e3, type: 3}
   - {fileID: 1821570372335185903, guid: baef29a03bc597347985b09a991bf8e3, type: 3}

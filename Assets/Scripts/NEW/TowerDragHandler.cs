@@ -27,18 +27,7 @@ public class TowerDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         towerRangeSr = towerRange.GetComponent<SpriteRenderer>();
 
 
-        // Create a copy of the tower icon to follow the cursor
-        /*dragIcon = new GameObject("DragIcon");
-        dragIcon.transform.SetParent(canvas.transform, false);
-        dragIcon.transform.SetAsLastSibling();
 
-        Image iconImage = dragIcon.AddComponent<Image>();
-        iconImage.sprite = GetComponent<Image>().sprite;
-        iconImage.SetNativeSize();
-        iconImage.raycastTarget = false; // Disable raycast to allow events to pass through
-
-        dragRectTransform = dragIcon.GetComponent<RectTransform>();
-        dragRectTransform.sizeDelta = GetComponent<RectTransform>().sizeDelta;*/
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -51,7 +40,7 @@ public class TowerDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
             {
 
                 var gridpos = LevelManager.Instance.WorldToGridPosition(worldPosition);
-                towerObj.transform.position = LevelManager.Instance.GridToWorldPosition(gridpos);
+                towerObj.transform.position = LevelManager.Instance.GridToWorldPosition(gridpos) + new Vector3(0, 0.13f, 0); //+ new Vector3(-0.349000007f, 0.221f, 0);
 
                 if (IsValidTowerPosition(worldPosition))
                 {
@@ -64,7 +53,19 @@ public class TowerDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
                     Color failCol = Color.red;
                     failCol.a = 0.4f;
                     towerRangeSr.color = failCol;
+                } 
+                /*if (!IsLoad())
+                {
+                    Color successCol = Color.green;
+                    successCol.a = 0.4f;
+                    towerRangeSr.color = successCol;
                 }
+                else
+                {
+                    Color failCol = Color.red;
+                    failCol.a = 0.4f;
+                    towerRangeSr.color = failCol;
+                }*/
 
             }
         }
@@ -85,7 +86,7 @@ public class TowerDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         if (GetWorldPosition(eventData, out worldPosition))
         {
             Debug.Log("PossibleBatch");
-            if (IsValidTowerPosition(worldPosition)|| true )
+            if (IsValidTowerPosition(worldPosition))
             {
                 
                 // Instantiate the tower at the valid position
@@ -108,17 +109,18 @@ public class TowerDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         towerRangeSr = null;   
         
     }
+    
 
     private bool GetWorldPosition(PointerEventData eventData, out Vector3 worldPosition)
     {
-        // Convert screen position to world position
-        //Ray ray = Camera.main.ScreenPointToRay(eventData.position);
+        
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePos , Vector2.zero);
         int layerMask = LayerMask.GetMask("GameField"); // Adjust the layer name as needed
         
         if (Physics2D.Raycast(mousePos , Vector2.zero, layerMask))
         {
+   
             Debug.Log(hit.transform.name);
             worldPosition = new Vector3(hit.point.x, hit.point.y, 0); //-  new Vector3(-0.349000007f,0.0909999982f,0f) ;
             return true;
@@ -130,6 +132,7 @@ public class TowerDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     private bool IsValidTowerPosition(Vector3 position)
     {
         // Implement logic to check if the tower can be placed at the position
+        
         Point gridPos = LevelManager.Instance.WorldToGridPosition(position);
         return LevelManager.Instance.IsValidTowerPosition(gridPos);
     }

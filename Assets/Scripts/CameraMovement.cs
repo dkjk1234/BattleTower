@@ -59,7 +59,7 @@ public class CameraMovement : MonoBehaviour
     {
         if (cam == null)
         {
-            Debug.LogError("Main Camera not found. Cannot set limits.");
+            cam = Camera.main;
             return;
         }
 

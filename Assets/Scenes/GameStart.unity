@@ -1000,7 +1000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7353965ffd38aa747956c6011ebb0198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 3214757740198575312, guid: d5b57ac4e38c5904593209bb996c240b,
+  towerPrefab: {fileID: 7770018758351309511, guid: f6aa1628f5ba1ac43801adf92926136a,
     type: 3}
 --- !u!114 &159985325
 MonoBehaviour:
@@ -4228,7 +4228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7353965ffd38aa747956c6011ebb0198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 7770018758351309511, guid: fe13bebfca6b3744e89119985ae653ce,
+  towerPrefab: {fileID: 7770018758351309511, guid: a2eee94b188910e42b3f2da4793b3e25,
     type: 3}
 --- !u!114 &794538042
 MonoBehaviour:
@@ -6052,7 +6052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7353965ffd38aa747956c6011ebb0198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 8214876654391308827, guid: d024afcfab938844e982674266b02ef6,
+  towerPrefab: {fileID: 7770018758351309511, guid: 299428cb8ae661b469f0c3c3eba91740,
     type: 3}
 --- !u!114 &1137856344
 MonoBehaviour:
@@ -6483,7 +6483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7353965ffd38aa747956c6011ebb0198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 3214757740198575312, guid: d5b57ac4e38c5904593209bb996c240b,
+  towerPrefab: {fileID: 7770018758351309511, guid: 5fecb7deced2c98488a061c9e95f460f,
     type: 3}
 --- !u!114 &1181954192
 MonoBehaviour:
@@ -7962,7 +7962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505900244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10494,6 +10494,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ccc05a469147247a9d24480eca04b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTest: 0
+  tiemScale: 1
   towerPrices: 46000000500000005a00000050000000
   waveBtn: {fileID: 1667982845}
   gameCompleteUI: {fileID: 2130791176}

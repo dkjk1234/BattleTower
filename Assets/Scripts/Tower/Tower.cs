@@ -10,6 +10,8 @@ public class Tower : MonoBehaviour {
     float attackTimer;
     bool canAttack;
 
+    public int level;
+
     public int towerIndex, towerPrice;
 
     private float projectileSpeed, attackCooldown;
@@ -56,6 +58,11 @@ public class Tower : MonoBehaviour {
         sr = GetComponent<SpriteRenderer>();
         canAttack = true;
         monsterList = new List<Monster>();
+
+        for (int i = 0; level > i; i++)
+        {
+            LevelUp();
+        }
     }
 
     private void Update() {
@@ -65,17 +72,18 @@ public class Tower : MonoBehaviour {
 
     public void Setup(Vector3 worldPos) {
         GridPosition = LevelManager.Instance.WorldToGridPosition(worldPos);
-        transform.position = LevelManager.Instance.GridToWorldPosition(GridPosition);
+        transform.position = LevelManager.Instance.GridToWorldPosition(GridPosition) + new Vector3(0, 0.13f, 0); ;
         GameManager.Instance.Towers.Add(GridPosition, this);
-        
+
+        LevelManager.Instance.SpawnPoints[GridPosition].TowerLevel++;
         /*transform.position = worldPos + new Vector3(0, 0.13f, 0);
         GameManager.Instance.Towers.Add(gridPos, this);
 
-        LevelManager.Instance.SpawnPoints[gridPos].TowerLevel++;
+        
         if(LevelManager.Instance.SpawnPoints[gridPos].TowerLevel.Equals(GameManager.Instance.TowerLevelMax)) 
             LevelManager.Instance.SpawnPoints[GridPosition].TowerLevelMax = true;*/
 
-        Projectile = projectileType + "1";
+        Projectile = projectileType;
         towerPrice = GameManager.Instance.towerPrices[towerIndex];
         GameManager.Instance.dataManager.Initialize(towerIndex, ref damage, ref projectileSpeed, ref attackCooldown);
 

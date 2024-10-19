@@ -14,6 +14,7 @@ public class ObjectManager : MonoBehaviour
 
     private GameObject Generate(string type, bool isActive) {
         for(int i = 0; i < objectPrefabs.Length; i++) {
+            if (objectPrefabs[i] == null) continue;
             if(objectPrefabs[i].name.Equals(type)) {
                 GameObject newObject = Instantiate(objectPrefabs[i]);
                 newObject.SetActive(isActive);
@@ -46,7 +47,7 @@ public class ObjectManager : MonoBehaviour
             }
         }
 
-        return Generate(type, true);       
+        return Generate(type, true);    
     }
 
     public GameObject Soldiers(string level) {

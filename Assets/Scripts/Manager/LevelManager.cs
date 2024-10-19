@@ -122,12 +122,16 @@ public class LevelManager : MonoBehaviour
         // Convert grid coordinates back to world position
         float x = gridPosition.x + 0.5f; // Adjust as per your grid size
         float y = gridPosition.y + 0.5f;
-        return new Vector3(x, y, 0f) + new Vector3(0, 0.13f, 0) + new Vector3(-0.349000007f,0.0909999982f,0f);
+        return new Vector3(x, y, 0f);
     }
 
     public bool IsValidTowerPosition(Point gridPosition)
     {
         // Check if the grid position is within bounds and not occupied
+        if(!SpawnPoints.ContainsKey(gridPosition))
+        {
+            return false;
+        }
         return !SpawnPoints[gridPosition].HasTower && !IsWalkableTile(GridToWorldPosition(gridPosition));
     }
       public bool IsWalkableTile(Vector3 pos) {
