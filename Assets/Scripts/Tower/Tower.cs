@@ -177,12 +177,14 @@ public class Tower : MonoBehaviour {
             if(distance > _distance) {
                 distance = _distance;
                 soldierStandardPos = pos.position;
+
+                Debug.Log(LevelManager.Instance.SpawnPoints[GridPosition].WorldLocation);
             }
         }
     }
 
     public void RecreateSoldier(int index, bool haveTimer, bool isLevelUp, Monster target) {
-        //StartCoroutine(CreateSoldier(index, LevelManager.Instance.SpawnPoints[GridPosition].SoldierPos[index], haveTimer, isLevelUp, target));
+        StartCoroutine(CreateSoldier(index, LevelManager.Instance.SpawnPoints[GridPosition].SoldierPos[index], haveTimer, isLevelUp, target));
     }
 
     IEnumerator CreateSoldier(int index, Vector3 pos, bool haveTimer, bool isLevelUp, Monster target) {
