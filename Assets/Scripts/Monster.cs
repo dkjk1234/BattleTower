@@ -70,7 +70,7 @@ public class Monster : MonoBehaviour {
         //As long as the progress is less than 1, than we need to keep scaling
         while(progress <= 1) {
             transform.localScale = Vector3.Lerp(from, to, progress);
-            progress += Time.deltaTime * 1.3f;
+            progress += 1.3f;
             yield return new WaitForSeconds(0.01f);
         }
         //Make sure that is has the correct scale after scaling
@@ -102,7 +102,7 @@ public class Monster : MonoBehaviour {
     //Makes the monster move along the given path
     IEnumerator MonsterMove() {
         while(!isDie && !MoveStop) {
-            transform.position = Vector2.MoveTowards(transform.position, destination, speed *Time.deltaTime * 60);
+            transform.position = Vector2.MoveTowards(transform.position, destination, speed);
             healthBar.transform.position = transform.position + new Vector3(0, 0.43f, 0);
             anim.SetBool("MonsterIdle", false);
 
@@ -118,7 +118,7 @@ public class Monster : MonoBehaviour {
                 else
                     break;
             }
-            yield return new WaitForSeconds(0.03f);
+            yield return new WaitForSeconds(0.02f);
         }
         if(MoveStop) {
             Animate(MonsterPos, MonsterPos);

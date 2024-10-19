@@ -4902,12 +4902,13 @@ MonoBehaviour:
   - {fileID: 3214757740198575312, guid: d5b57ac4e38c5904593209bb996c240b, type: 3}
   - {fileID: 7670489056915847521, guid: 28ed2e088a627db4db2da50da12d54b0, type: 3}
   - {fileID: 8214876654391308827, guid: d024afcfab938844e982674266b02ef6, type: 3}
-  - {fileID: 7770018758351309511, guid: fe13bebfca6b3744e89119985ae653ce, type: 3}
+  - {fileID: 314793520817914590, guid: c2b5c5f2cdc10c8408eeaedef025c9e7, type: 3}
   - {fileID: 314793520817914590, guid: 9e485680821d2224cbab711032d35b9e, type: 3}
   - {fileID: 314793520817914590, guid: f476532e45e68a241b3a8088171eb207, type: 3}
   - {fileID: 5158036423625545837, guid: 3cd8424813d4e4642ae4bf14b6028d6e, type: 3}
   - {fileID: 821793913441635888, guid: a572c152cf8ea204fbd7cf553c856cd8, type: 3}
   - {fileID: 3852998545192286112, guid: 98e54f849f2aaf64ca03fe30f563b4e6, type: 3}
+  - {fileID: 821793913441635888, guid: bd50f2d0f226a6b49b6ed8c56e944331, type: 3}
   monster: {fileID: 1799544975}
   projectile: {fileID: 1543311035}
   canvas: {fileID: 1706140039}

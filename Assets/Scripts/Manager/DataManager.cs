@@ -36,9 +36,9 @@ public class DataManager : MonoBehaviour
 
     public void Initialize(int towerIndex, ref float power, ref float speed, ref float coolTime)
     {
-        power = TowerOffensePower[towerIndex];
-        speed = ProjectileSpeed[towerIndex];
-        coolTime = AttackCoolDown[towerIndex];
+        //power = TowerOffensePower[towerIndex];
+        //speed = ProjectileSpeed[towerIndex];
+        //coolTime = AttackCoolDown[towerIndex];
     }
 
     // Reads the level data from a text file

@@ -92,6 +92,7 @@ public class TowerDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
                 // Instantiate the tower at the valid position
                 
                 Tower tower = towerObj.GetComponent<Tower>();
+                tower.enabled = true;
                 tower.Setup(worldPosition);
                 towerRangeSr.enabled = false;
                 Initalized();

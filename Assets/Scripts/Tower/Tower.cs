@@ -14,7 +14,7 @@ public class Tower : MonoBehaviour {
 
     public int towerIndex, towerPrice;
 
-    private float projectileSpeed, attackCooldown;
+    public float projectileSpeed, attackCooldown;
     public float ProjectileSpeed { get { return projectileSpeed; } }
     public float AttackCoolDown { get => attackCooldown; }
 
@@ -36,7 +36,9 @@ public class Tower : MonoBehaviour {
     public Dictionary<int, Soldier> Soldiers { get; set; }
     private Vector3 soldierStandardPos;
 
-    private float damage, distance;
+   
+
+    public float damage, distance;
     public float Damage { get => damage; }
 
     [SerializeField]
@@ -85,7 +87,7 @@ public class Tower : MonoBehaviour {
 
         Projectile = projectileType;
         towerPrice = GameManager.Instance.towerPrices[towerIndex];
-        GameManager.Instance.dataManager.Initialize(towerIndex, ref damage, ref projectileSpeed, ref attackCooldown);
+        //GameManager.Instance.dataManager.Initialize(towerIndex, ref damage, ref projectileSpeed, ref attackCooldown);
 
         range = transform.GetChild(0).GetComponent<TowerRange>();
         towerRange.enabled = false;
@@ -171,17 +173,28 @@ public class Tower : MonoBehaviour {
         proj.Initialize(this);
     }
 
-    private void CheckNeighborTiles() {
-        foreach(Transform pos in LevelManager.Instance.Tile.SoldierSpawnPos) {
-            float _distance = Vector3.Distance(LevelManager.Instance.SpawnPoints[GridPosition].WorldLocation, pos.position);
-            if(distance > _distance) {
-                distance = _distance;
-                soldierStandardPos = pos.position;
+    private void CheckNeighborTiles()
+    {
+        // distance 변수를 각 타워마다 초기화
+        float distance = float.MaxValue;  // 가장 가까운 위치를 찾기 위한 초기값 설정
 
+        foreach (Transform pos in LevelManager.Instance.Tile.SoldierSpawnPos)
+        {
+            // 현재 타워 위치와 병사 스폰 위치 간의 거리 계산
+            //float _distance = Vector3.Distance(LevelManager.Instance.SpawnPoints[GridPosition].WorldLocation, pos.position);
+            float _distance = Vector3.Distance(transform.position, pos.position);
+            // 더 가까운 위치가 있으면 soldierStandardPos를 업데이트
+            if (distance > _distance)
+            {
+                distance = _distance;  // 새로운 최소 거리를 저장
+                soldierStandardPos = pos.position;  // 가까운 위치로 업데이트
+
+                // Debug 로그로 타워의 월드 위치 출력
                 Debug.Log(LevelManager.Instance.SpawnPoints[GridPosition].WorldLocation);
             }
         }
     }
+
 
     public void RecreateSoldier(int index, bool haveTimer, bool isLevelUp, Monster target) {
         StartCoroutine(CreateSoldier(index, LevelManager.Instance.SpawnPoints[GridPosition].SoldierPos[index], haveTimer, isLevelUp, target));

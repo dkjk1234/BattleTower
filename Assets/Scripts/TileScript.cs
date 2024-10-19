@@ -38,6 +38,11 @@ public class TileScript : MonoBehaviour {
     List<WayPoints> monsterWay;
     public List<WayPoints> MonsterWay { get => monsterWay; }
 
+    private void Awake()
+    {
+        
+    }
+
 
 
     public Vector3[] SetSoldierPos(Vector3 standardPos) {
